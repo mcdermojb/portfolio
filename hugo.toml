@@ -3,7 +3,8 @@ languageCode = 'en-us'
 title = 'Joe McDermott'
 theme = 'PaperMod'
 
-# GLOBAL SETTINGS: Must stay at the top to fix your CSS/styling
+# GLOBAL SETTINGS
+# These allow the site to find its CSS regardless of the environment
 canonifyURLs = true
 relativeURLs = false
 
@@ -21,9 +22,9 @@ relativeURLs = false
         url = "projects/"
 
 [params.assets]
-    disableFingerprinting = true
+    disableFingerprinting = true # Prevents "Integrity" errors on GitHub Pages
 
-# SOCIAL ICONS: Ensure these stay as separate blocks at the bottom
+# SOCIAL ICONS
 [[params.socialIcons]]
     name = "github"
     url = "https://github.com/mcdermojb"
@@ -35,3 +36,22 @@ relativeURLs = false
 [[params.socialIcons]]
     name = "email"
     url = "mailto:your-email@example.com"
+
+# MAIN MENU NAVIGATION
+[[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "about/"      # Removed the / at the start
+    weight = 10
+
+[[menu.main]]
+    identifier = "projects"
+    name = "Projects"
+    url = "projects/"   # Removed the / at the start
+    weight = 20
+
+[[menu.main]]
+    identifier = "resume"
+    name = "Resume"
+    url = "resume/"     # Removed the / at the start
+    weight = 30
