@@ -1,0 +1,29 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = "Joe McDermott"
+theme = "PaperMod"
+
+[params]
+    # This turns on the professional landing page look
+    [params.profileMode]
+        enabled = true
+        title = "Joe McDermott"
+        subtitle = "Professional Portfolio | Technical Wazoo | Nirvana Aspirant"
+        imageUrl = "<img link>" # You can add a photo later!
+        
+        [[params.profileMode.buttons]]
+            name = "View My Projects"
+            url = "posts"
+
+# Add this section below profileMode:
+    [[params.socialIcons]]
+        name = "github"
+        url = "https://github.com/your-username"
+
+    [[params.socialIcons]]
+        name = "linkedin"
+        url = "https://linkedin.com/in/your-username"
+
+    [[params.socialIcons]]
+        name = "email"
+        url = "mailto:your-email@example.com"
