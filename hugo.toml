@@ -1,11 +1,12 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://mcdermojb.github.io/portfolio/'
 languageCode = 'en-us'
-title = "Joe McDermott"
-theme = "PaperMod"
+title = 'Joe McDermott'
+theme = 'PaperMod'
 
 [params]
     # This turns on the professional landing page look
-    [params.profileMode]
+    env = 'production' # This tells PaperMod to use minified CSS
+[params.profileMode]
         enabled = true
         title = "Joe McDermott"
         subtitle = "Professional Portfolio | Technical Wazoo | Nirvana Aspirant"
