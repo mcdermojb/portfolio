@@ -41,17 +41,17 @@ relativeURLs = false
 [[menu.main]]
     identifier = "about"
     name = "About"
-    url = "about/"      # Removed the / at the start
+    url = "about/"
     weight = 10
 
 [[menu.main]]
     identifier = "projects"
     name = "Projects"
-    url = "projects/"   # Removed the / at the start
+    url = "projects/"
     weight = 20
 
 [[menu.main]]
     identifier = "resume"
     name = "Resume"
-    url = "resume/"     # Removed the / at the start
+    url = "resume/"
     weight = 30

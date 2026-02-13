@@ -2,18 +2,50 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Joe McDermott</title>
-    <link>http://localhost:1313/</link>
+    <link>http://localhost:1313/portfolio/</link>
     <description>Recent content on Joe McDermott</description>
     <generator>Hugo -- 0.155.3</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 12 Feb 2026 13:08:31 -0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 12 Feb 2026 14:30:28 -0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My First Post</title>
+      <link>http://localhost:1313/portfolio/posts/my-first-post/</link>
+      <pubDate>Thu, 12 Feb 2026 14:30:28 -0800</pubDate>
+      <guid>http://localhost:1313/portfolio/posts/my-first-post/</guid>
+      <description></description>
+    </item>
     <item>
       <title>My First Project</title>
-      <link>http://localhost:1313/posts/my-first-project/</link>
+      <link>http://localhost:1313/portfolio/posts/my-first-project/</link>
       <pubDate>Thu, 12 Feb 2026 13:08:31 -0800</pubDate>
-      <guid>http://localhost:1313/posts/my-first-project/</guid>
+      <guid>http://localhost:1313/portfolio/posts/my-first-project/</guid>
       <description>&lt;h2 id=&#34;this-is-my-first-portfolio-project&#34;&gt;This is my first portfolio project!&lt;/h2&gt;</description>
+    </item>
+    <item>
+      <title>About Me</title>
+      <link>http://localhost:1313/portfolio/about/</link>
+      <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/about/</guid>
+      <description>&lt;p&gt;Write your bio here!&lt;/p&gt;
+&lt;h3 id=&#34;professional-profile&#34;&gt;Professional Profile&lt;/h3&gt;
+&lt;p&gt;I bridge the gap between technical development and project management.&lt;/p&gt;
+&lt;h3 id=&#34;technical-toolbox&#34;&gt;Technical Toolbox&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Management:&lt;/strong&gt; Jira, Trello, Agile/Scrum, Risk Mitigation.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Development:&lt;/strong&gt; Python, JavaScript, Hugo, Git.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tools:&lt;/strong&gt; VS Code, Terminal, GitHub Actions.&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Resume</title>
+      <link>http://localhost:1313/portfolio/resume/</link>
+      <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/resume/</guid>
+      <description>&lt;h3 id=&#34;experience&#34;&gt;Experience&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Project Manager at X&amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
   </channel>
 </rss>
