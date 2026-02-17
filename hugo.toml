@@ -2,9 +2,9 @@ baseURL = 'https://mcdermojb.github.io/portfolio/'
 theme = 'PaperMod'
 title = 'Joe McDermott | Technical Writer'
 
-# Pathing Logic
+# Pathing Logic for Git
 relativeURLs = true
-canonifyURLs = false
+canonifyURLs = true
 
 [params]
     env = 'production'
