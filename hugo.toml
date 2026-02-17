@@ -1,41 +1,40 @@
 baseURL = 'https://mcdermojb.github.io/portfolio/'
-languageCode = 'en-us'
-title = 'Joe McDermott'
 theme = 'PaperMod'
+title = 'Joe McDermott | Technical Writer'
 
-# GLOBAL SETTINGS
-# These allow the site to find its CSS regardless of the environment
-canonifyURLs = true
-relativeURLs = false
+# Pathing Logic
+relativeURLs = true
+canonifyURLs = false
 
 [params]
     env = 'production'
+    description = "Senior Principal Information Developer specializing in REST APIs, enterprise security, and AI-augmented workflows."
 
 [params.profileMode]
     enabled = true
     title = "Joe McDermott"
-    subtitle = "Professional Portfolio | Technical Wazoo | Nirvana Aspirant"
-    imageUrl = "" # Add a link to a photo here later!
+    subtitle = "Technical Writer & Architectural Strategist | Translating complex engineering into human usability."
+    imageUrl = "" 
 
     [[params.profileMode.buttons]]
         name = "View My Projects"
         url = "projects/"
 
 [params.assets]
-    disableFingerprinting = true # Prevents "Integrity" errors on GitHub Pages
+    disableFingerprinting = true
 
-# SOCIAL ICONS
+# SOCIAL ICONS (Updated with Seed Data)
 [[params.socialIcons]]
     name = "github"
     url = "https://github.com/mcdermojb"
 
 [[params.socialIcons]]
     name = "linkedin"
-    url = "https://linkedin.com/in/your-username"
+    url = "https://linkedin.com/in/joe-b-mcdermott"
 
 [[params.socialIcons]]
     name = "email"
-    url = "mailto:your-email@example.com"
+    url = "mailto:mcd.joe@icloud.com"
 
 # MAIN MENU NAVIGATION
 [[menu.main]]

@@ -1,0 +1,13 @@
+---
+title: "AI-Augmented Workflow Implementation"
+description: "How I reduced content creation and editorial review time by ~30–40% using LLMs."
+date: 2026-02-17
+---
+
+### The Challenge
+[cite_start]Reducing cycle time in the Documentation Development Life Cycle (DDLC) without sacrificing technical accuracy[cite: 13, 28].
+
+### The Solution
+* [cite_start]**Prompt Engineering:** I developed structured templates for ChatGPT, Claude, and Gemini to generate drafts from Swagger/OpenAPI specs[cite: 46, 60].
+* [cite_start]**Content Auditing:** I batched 3,000 legacy topics for LLM review to identify content for deprecation[cite: 48, 49].
+* [cite_start]**Editorial QA:** Created prompt-based templates to enforce style and reduce manual review time by ~30%[cite: 55].

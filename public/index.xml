@@ -1,51 +1,89 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Joe McDermott</title>
-    <link>http://localhost:1313/portfolio/</link>
-    <description>Recent content on Joe McDermott</description>
+    <title>Joe McDermott | Technical Writer</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Joe McDermott | Technical Writer</description>
     <generator>Hugo -- 0.155.3</generator>
-    <language>en-us</language>
-    <lastBuildDate>Thu, 12 Feb 2026 14:30:28 -0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Tue, 17 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Tue, 17 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;h1 id=&#34;joe-mcdermott&#34;&gt;Joe McDermott&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Senior Principal Information Developer | Berkeley, CA&lt;/strong&gt; | &lt;strong&gt;&lt;a href=&#34;https://linkedin.com/in/joe-b-mcdermott&#34;&gt;LinkedIn&lt;/a&gt;&lt;/strong&gt; | &lt;strong&gt;&lt;a href=&#34;mailto:mcd.joe@icloud.com&#34;&gt;Email&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;I specialize in translating complex engineering architectures into accessible, high-impact documentation. My work focuses on closing the distance between system design and user success through structured content and proactive leadership.&lt;/p&gt;
+&lt;h2 id=&#34;the-information-hunter&#34;&gt;The Information Hunter&lt;/h2&gt;
+&lt;p&gt;I treat documentation as a strategic discipline rather than a downstream task. I embed with cross-functional teams to extract technical specifications directly from Architects, SQA, and Support. This proactive approach eliminates information silos and ensures that REST APIs and security frameworks are intuitive and technically accurate.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>AI-Augmented Content Operations</title>
+      <link>http://localhost:1313/projects/ai-workflow/</link>
+      <pubDate>Tue, 17 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/ai-workflow/</guid>
+      <description>Optimizing the DDLC through prompt engineering and LLM automation.</description>
+    </item>
+    <item>
+      <title>API Modernization &amp; Developer Enablement</title>
+      <link>http://localhost:1313/projects/api-transition/</link>
+      <pubDate>Tue, 17 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/api-transition/</guid>
+      <description>Leading the architectural shift from SOAP to REST/OpenAPI.</description>
+    </item>
+    <item>
+      <title>CMS Migration &amp; Structured Authoring</title>
+      <link>http://localhost:1313/projects/cms-migration/</link>
+      <pubDate>Tue, 17 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/cms-migration/</guid>
+      <description>Optimizing enterprise publishing through DITA and CCMS strategy.</description>
+    </item>
+    <item>
+      <title>Resume</title>
+      <link>http://localhost:1313/resume/</link>
+      <pubDate>Tue, 17 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/resume/</guid>
+      <description>&lt;h1 id=&#34;joe-mcdermott&#34;&gt;Joe McDermott&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Senior Principal Information Developer | Berkeley, CA | &lt;a href=&#34;https://linkedin.com/in/joe-b-mcdermott&#34;&gt;LinkedIn&lt;/a&gt;&lt;/strong&gt; | &lt;strong&gt;&lt;a href=&#34;mailto:mcd.joe@icloud.com&#34;&gt;Email&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;executive-summary&#34;&gt;Executive Summary&lt;/h2&gt;
+&lt;p&gt;Technical leader with 15+ years of experience managing documentation lifecycles for enterprise security and developer platforms. Expert in orchestrating Docs-as-Code workflows, REST API modernization, and AI-augmented content operations.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;professional-experience&#34;&gt;Professional Experience&lt;/h2&gt;
+&lt;h3 id=&#34;symantec-division-of-broadcom&#34;&gt;Symantec (Division of Broadcom)&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Senior Principal Information Developer, Lead&lt;/strong&gt; | 2012 – Present&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Leadership &amp;amp; Strategy&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Documentation Governance:&lt;/strong&gt; Direct the content strategy for Enterprise Data Loss Prevention (DLP) across 10+ product areas, aligning technical specifications for Architects, PGM, and CISOs.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;AI Operations:&lt;/strong&gt; Engineered a pipeline using ChatGPT, Claude, and Gemini for content auditing and QA automation, reducing cycle times by &lt;strong&gt;30%&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;API Modernization:&lt;/strong&gt; Led the legacy-to-REST transition via OpenAPI standards, increasing developer onboarding efficiency by &lt;strong&gt;50%&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Systems Architecture:&lt;/strong&gt; Spearheaded global single-sourcing strategies using DITA (XML) to ensure feature parity across On-Premises and Cloud portfolios.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mentorship:&lt;/strong&gt; Lead Agile sprints for cross-functional writing teams and consult on global CMS migrations (AEM/Vasont).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;corptax-inc&#34;&gt;Corptax Inc.&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Senior Technical Writer&lt;/strong&gt; | 2006 – 2012&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The DLP Dictionary: Organizational Taxonomy and Governance</title>
+      <link>http://localhost:1313/projects/dlp-dictionary/</link>
+      <pubDate>Tue, 17 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/dlp-dictionary/</guid>
+      <description>Standardizing technical language to align Engineering, Sales, and Executive stakeholders.</description>
+    </item>
     <item>
       <title>My First Post</title>
-      <link>http://localhost:1313/portfolio/posts/my-first-post/</link>
+      <link>http://localhost:1313/posts/my-first-post/</link>
       <pubDate>Thu, 12 Feb 2026 14:30:28 -0800</pubDate>
-      <guid>http://localhost:1313/portfolio/posts/my-first-post/</guid>
+      <guid>http://localhost:1313/posts/my-first-post/</guid>
       <description></description>
     </item>
     <item>
       <title>My First Project</title>
-      <link>http://localhost:1313/portfolio/posts/my-first-project/</link>
+      <link>http://localhost:1313/posts/my-first-project/</link>
       <pubDate>Thu, 12 Feb 2026 13:08:31 -0800</pubDate>
-      <guid>http://localhost:1313/portfolio/posts/my-first-project/</guid>
+      <guid>http://localhost:1313/posts/my-first-project/</guid>
       <description>&lt;h2 id=&#34;this-is-my-first-portfolio-project&#34;&gt;This is my first portfolio project!&lt;/h2&gt;</description>
-    </item>
-    <item>
-      <title>About Me</title>
-      <link>http://localhost:1313/portfolio/about/</link>
-      <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/portfolio/about/</guid>
-      <description>&lt;p&gt;Write your bio here!&lt;/p&gt;
-&lt;h3 id=&#34;professional-profile&#34;&gt;Professional Profile&lt;/h3&gt;
-&lt;p&gt;I bridge the gap between technical development and project management.&lt;/p&gt;
-&lt;h3 id=&#34;technical-toolbox&#34;&gt;Technical Toolbox&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Management:&lt;/strong&gt; Jira, Trello, Agile/Scrum, Risk Mitigation.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Development:&lt;/strong&gt; Python, JavaScript, Hugo, Git.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Tools:&lt;/strong&gt; VS Code, Terminal, GitHub Actions.&lt;/li&gt;
-&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Resume</title>
-      <link>http://localhost:1313/portfolio/resume/</link>
-      <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/portfolio/resume/</guid>
-      <description>&lt;h3 id=&#34;experience&#34;&gt;Experience&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Project Manager at X&amp;hellip;&lt;/li&gt;
-&lt;/ul&gt;</description>
     </item>
   </channel>
 </rss>
