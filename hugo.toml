@@ -3,7 +3,7 @@ theme = 'PaperMod'
 title = 'Joe McDermott | Technical Writer'
 
 # Pathing Logic for Git
-relativeURLs = true
+relativeURLs = false
 canonifyURLs = true
 
 [params]
@@ -21,7 +21,7 @@ canonifyURLs = true
         url = "projects/"
 
 [params.assets]
-    disableFingerprinting = true
+    disableFingerprinting = false # Let PaperMod handle the CSS naming
 
 # SOCIAL ICONS (Updated with Seed Data)
 [[params.socialIcons]]
