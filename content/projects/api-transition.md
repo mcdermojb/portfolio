@@ -1,5 +1,5 @@
 ---
-title: "API Modernization & Developer Enablement"
+title: "API Modernization and Developer Enablement"
 description: "Leading the architectural shift from SOAP to REST/OpenAPI."
 date: 2026-02-17
 ---

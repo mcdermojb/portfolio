@@ -1,5 +1,5 @@
 ---
-title: "AI-Augmented Content Operations"
+title: "AI-Augmented Content Development"
 description: "Optimizing the DDLC through prompt engineering and LLM automation."
 date: 2026-02-17
 ---

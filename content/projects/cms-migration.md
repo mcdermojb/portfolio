@@ -1,5 +1,5 @@
 ---
-title: "CMS Migration & Structured Authoring"
+title: "CMS Migration and Structured Authoring"
 description: "Optimizing enterprise publishing through DITA and CCMS strategy."
 date: 2026-02-17
 ---
