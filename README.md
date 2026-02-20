@@ -32,15 +32,16 @@ hugo --minify
 * **Tip:** This generates the final static files inside the /public folder.
 
 ### 3. Check-in to Git
-Send the updates to GitHub to trigger the automatic deployment:
-
+Checking in updated content is comprised of the following steps:
+1. Send the updates to GitHub to trigger the automatic deployment:
 \`\`\`bash
-# 1. Stage all changes.
+
+1. Stage all changes.
 git add .
 
-# 2. Record the changes with a descriptive message.
+2. Record the changes with a descriptive message.
 git commit -m "A summary of changes"
 
-### 4. Build the site. 
+4. Build the site. 
 Send the updates to GitHub to trigger the automatic deployment:
 git push origin main
