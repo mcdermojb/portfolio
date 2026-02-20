@@ -35,11 +35,11 @@ hugo --minify
 Send the updates to GitHub to trigger the automatic deployment:
 
 \`\`\`bash
-# 1. Stage all changes
+# 1. Stage all changes.
 git add .
 
-# 2. Save the snapshot with a me# 2. Save the snapshot da# 2. Save the snapshot wiite# 2. Save the snapshot with a me# 2. Save the snapshot da# 2. Save the snapshot wiit*Changes not showing?** Check the **Actions** tab in the GitHub reposito# 2. Save the snapshot with re baseURL in h# 2. Save the snapshot with a me# ub.io/portfolio/.
-* **Missing Theme?** Run: git submodule update --init --recursive
+# 2. Record the changes with a descriptive message.
+git commit -m "A summary of changes"
 
 ### 4. Build the site. 
 Send the updates to GitHub to trigger the automatic deployment:
