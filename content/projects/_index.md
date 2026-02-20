@@ -2,6 +2,7 @@
 title: "Projects and Case Studies"
 description: ""
 layout: "list"
+draft: false
 ---
 
 ---
