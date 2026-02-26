@@ -4,20 +4,31 @@ date: 2026-02-17
 ---
 
 # Joe McDermott
-**Senior Principal Information Developer | Berkeley, CA** | **[LinkedIn](https://linkedin.com/in/joe-b-mcdermott)** | **[Email](mailto:mcd.joe@icloud.com)**
+**Senior Principal Information Developer and Architectural Strategist | Berkeley, CA** **[LinkedIn](https://linkedin.com/in/joe-b-mcdermott)** | **[Email](mailto:mcd.joe@icloud.com)**
 
 I specialize in translating complex engineering architectures into accessible, high-impact documentation. My work focuses on closing the distance between system design and user success through structured content and proactive leadership.
 
+## Technical Agility
+I thrive in the high-friction phase of new technology adoption. I pride myself on the speed at which I can master a new stack to drive operational efficiency.
+
+**This portfolio is a meta-demonstration of that agility.** To maintain full architectural control and prove the scalability of the Docs-as-Code model, I learned and implemented the following to build this site:
+* **Static Site Generation:** Hugo
+* **Infrastructure:** GitHub Actions for automated CI/CD
+* **Version Control:** Git-based content management
+* **Automation:** YAML-driven data structures and prompt-engineered workflows
+
 ## The Information Hunter
-I treat documentation as a strategic discipline rather than a downstream task. I embed with cross-functional teams to extract technical specifications directly from Architects, SQA, and Support. This proactive approach eliminates information silos and ensures that REST APIs and security frameworks are intuitive and technically accurate.
+I treat documentation as a strategic discipline. I don't wait for hand-offs; I embed with cross-functional teams to extract technical specifications directly from Architects, SQA, and Support. This proactive approach eliminates information silos and ensures that REST APIs and security frameworks are intuitive and technically accurate.
 
-## Toolkit and Strategy
-I implement **Docs-as-Code** workflows that blend architectural precision with automation:
-
+## Modern Toolkit
 * **Developer Enablement:** Swagger/OpenAPI, Postman, and Git-based workflows.
-* **AI-Augmented Content:** LLM integration for large-scale auditing and QA automation.
-* **Content Architecture:** DITA (XML), AEM, and Vasont for N-tier system documentation.
-* **Technical Core:** Data Loss Prevention (DLP), Linux/Windows, and Oracle 12c.
+* **AI Operations:** Prompt Engineering, LLM-based Content Auditing, Automation Workflows.
+* **Content Architecture:** DITA (XML), AEM, Swagger/OpenAPI, Git (CLI), Markdown, DITA (XML), CCMS.
+* **Technical Core:** Data Loss Prevention (DLP), SaaS, Oracle 12c, N-tier Security.
 
-## Business Impact
-I build the "informational scaffolding" required to drive product adoption and reduce support overhead. By identifying product friction before it reaches the customer, I transform documentation into a measurable business driver.
+## The Human Side: Lifelong Learner
+Behind the technical maps is an avid learner and voracious reader who is constantly tuning his process. I am a process improver by nature—whether I’m refactoring a documentation pipeline or analyzing a play on the field. 
+
+When I’m not navigating complex software landscapes, you can find me playing and coaching baseball and softball or exploring the Berkeley hills.
+
+---

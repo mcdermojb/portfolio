@@ -1,6 +1,6 @@
 baseURL = 'https://mcdermojb.github.io/portfolio/'
 theme = 'PaperMod'
-title = 'Joe McDermott | Technical Writer'
+title = 'Joe McDermott'
 
 # Pathing Logic for Git
 relativeURLs = false
@@ -13,17 +13,33 @@ canonifyURLs = true
 [params.profileMode]
     enabled = true
     title = "Joe McDermott"
-    subtitle = "Technical Writer & Architectural Strategist | Translating complex engineering into human usability."
+    subtitle = "Information Developer and Content Engineer | Translating complex engineering into human usability."
     imageUrl = "" 
 
     [[params.profileMode.buttons]]
-        name = "View My Projects"
+        name = "About"
+        url = "about/"
+
+    [[params.profileMode.buttons]]
+        name = "Case Studies"
+        url = "case-studies/"
+
+    [[params.profileMode.buttons]]
+        name = "Samples"
+        url = "samples/"
+
+    [[params.profileMode.buttons]]
+        name = "Projects"
         url = "projects/"
 
-[params.assets]
-    disableFingerprinting = false # Let PaperMod handle the CSS naming
+    [[params.profileMode.buttons]]
+        name = "Posts"
+        url = "posts/"
 
-# SOCIAL ICONS (Updated with Seed Data)
+[params.assets]
+    disableFingerprinting = false 
+
+# SOCIAL ICONS
 [[params.socialIcons]]
     name = "github"
     url = "https://github.com/mcdermojb"
@@ -44,13 +60,25 @@ canonifyURLs = true
     weight = 10
 
 [[menu.main]]
-    identifier = "projects"
-    name = "Projects"
-    url = "projects/"
+    identifier = "case-studies"
+    name = "Case Studies"
+    url = "case-studies/"
     weight = 20
 
 [[menu.main]]
-    identifier = "resume"
-    name = "Resume"
-    url = "resume/"
+    identifier = "samples"
+    name = "Samples"
+    url = "samples/"
     weight = 30
+
+[[menu.main]]
+    identifier = "projects"
+    name = "Projects"
+    url = "projects/"
+    weight = 40
+
+[[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "posts/"
+    weight = 50

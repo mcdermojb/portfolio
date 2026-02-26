@@ -1,8 +1,6 @@
 ---
 title: "Resume"
-
-date: 2026-02-17
-showToc: true
+layout: "resume" # Or leave blank for default
 ---
 
 # Joe McDermott
