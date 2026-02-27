@@ -2,6 +2,8 @@
 title: "CMS Migration and Structured Authoring"
 description: "Optimizing enterprise publishing through DITA and CCMS strategy."
 date: 2026-02-17
+ShowToc: true
+TocOpen: false
 ---
 
 ### Challenge: Resolving Workflow Bottlenecks

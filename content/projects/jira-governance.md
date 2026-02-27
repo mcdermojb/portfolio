@@ -3,6 +3,8 @@ title: "Jira Backlog Reduction: Catching up on Years of Neglect"
 date: 2026-02-26
 description: "Architecting a systematic triage and automation framework to resolve documentation debt across multi-release product lines."
 tags: ["Jira", "Governance", "Process Optimization", "Agile", "Enterprise Strategy"]
+ShowToc: true
+TocOpen: false
 ---
 
 ### The Challenge: Backlog Entropy

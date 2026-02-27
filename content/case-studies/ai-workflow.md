@@ -2,6 +2,8 @@
 title: "AI-Augmented Content Engineering"
 description: "Optimizing the DDLC through prompt engineering, LLM automation, and recursive learning frameworks."
 date: 2026-02-17
+ShowToc: true
+TocOpen: false
 ---
 
 ### Objective: Scaling Content Efficiency

@@ -2,6 +2,8 @@
 title: "API Modernization and Developer Delight"
 description: "Leading the shift from SOAP to REST/OpenAPI through custom CMS engineering and infrastructure migration."
 date: 2026-02-17
+ShowToc: true
+TocOpen: false
 ---
 
 ### Challenge: Modernizing Enterprise Integration

@@ -2,6 +2,8 @@
 title: "AI Content Refactoring"
 description: "Refactoring the installation journey through architectural mapping, DITA structural optimization, and user-centric workflow orchestration."
 date: 2026-02-27
+ShowToc: true
+TocOpen: false
 ---
 
 # Case Study: Installation Corpus Refactor & Structural Optimization

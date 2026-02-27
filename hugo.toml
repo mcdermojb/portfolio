@@ -9,6 +9,8 @@ canonifyURLs = true
 [params]
     env = 'production'
     description = "Senior Principal Information Developer specializing in REST APIs, enterprise security, and AI-augmented workflows."
+    ShowToc = true          # Enables the TOC
+    TocOpen = false          # Keeps the TOC expanded by default (recommended for long case studies)
 
 [params.profileMode]
     enabled = true
@@ -82,3 +84,6 @@ canonifyURLs = true
     name = "Posts"
     url = "posts/"
     weight = 50
+
+[params.footer]
+    content = "© 2026 Joe McDermott. All rights reserved. Licensed under CC BY-NC-ND 4.0."
