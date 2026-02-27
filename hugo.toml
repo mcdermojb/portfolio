@@ -13,7 +13,7 @@ canonifyURLs = true
 [params.profileMode]
     enabled = true
     title = "Joe McDermott"
-    subtitle = "Information Developer and Content Engineer | Translating complex engineering into human usability."
+    subtitle = "Information Developer and Content Engineer | Translating complex code into actionable information."
     imageUrl = "" 
 
     [[params.profileMode.buttons]]

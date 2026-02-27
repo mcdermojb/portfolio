@@ -9,7 +9,7 @@ date: 2026-02-17
 I specialize in translating complex engineering architectures into accessible, high-impact documentation. My work focuses on closing the distance between system design and user success through structured content and proactive leadership.
 
 ## Technical Agility
-I thrive in the high-friction phase of new technology adoption. I pride myself on the speed at which I can master a new stack to drive operational efficiency.
+I thrive in the chaos phase of new technology adoption. I pride myself on the speed at which I can master a new stack to plan and create effective content.
 
 **This portfolio is a meta-demonstration of that agility.** To maintain full architectural control and prove the scalability of the Docs-as-Code model, I learned and implemented the following to build this site:
 * **Static Site Generation:** Hugo
@@ -18,7 +18,7 @@ I thrive in the high-friction phase of new technology adoption. I pride myself o
 * **Automation:** YAML-driven data structures and prompt-engineered workflows
 
 ## The Information Hunter
-I treat documentation as a strategic discipline. I don't wait for hand-offs; I embed with cross-functional teams to extract technical specifications directly from Architects, SQA, and Support. This proactive approach eliminates information silos and ensures that REST APIs and security frameworks are intuitive and technically accurate.
+I treat documentation as a strategic discipline. I don't wait for hand-offs; I embed to extract technical specifications directly from Architects, SQA, and Support. This proactive approach eliminates information silos and ensures that I get the context and specifications to document REST APIs and security frameworks that're findable and effective.
 
 ## Modern Toolkit
 * **Developer Enablement:** Swagger/OpenAPI, Postman, and Git-based workflows.

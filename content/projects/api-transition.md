@@ -1,6 +1,6 @@
 ---
-title: "API Modernization & Developer Enablement"
-description: "Leading the architectural shift from SOAP to REST/OpenAPI through custom engineering and infrastructure decoupling."
+title: "API Modernization and Developer Delight"
+description: "Leading the shift from SOAP to REST/OpenAPI through custom CMS engineering and infrastructure migration."
 date: 2026-02-17
 ---
 

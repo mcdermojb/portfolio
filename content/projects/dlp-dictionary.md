@@ -1,5 +1,5 @@
 ---
-title: "The DLP Dictionary: Organizational Taxonomy and Governance"
+title: "The DLP Dictionary: Creating a Consitent Terminology Definition and Reference"
 description: "Standardizing technical language to align Engineering, Sales, and Executive stakeholders."
 date: 2026-02-17
 ---

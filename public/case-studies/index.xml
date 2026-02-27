@@ -1,1 +1,33 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Joe McDermott</title><link>https://mcdermojb.github.io/portfolio/case-studies/</link><description>Recent content on Joe McDermott</description><generator>Hugo -- 0.155.3</generator><language>en</language><lastBuildDate>Tue, 17 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://mcdermojb.github.io/portfolio/case-studies/index.xml" rel="self" type="application/rss+xml"/><item><title>AI-Augmented Content Engineering</title><link>https://mcdermojb.github.io/portfolio/case-studies/ai-workflow/</link><pubDate>Tue, 17 Feb 2026 00:00:00 +0000</pubDate><guid>https://mcdermojb.github.io/portfolio/case-studies/ai-workflow/</guid><description>Optimizing the DDLC through prompt engineering, LLM automation, and recursive learning frameworks.</description></item><item><title>CMS Migration and Structured Authoring</title><link>https://mcdermojb.github.io/portfolio/case-studies/cms-migration/</link><pubDate>Tue, 17 Feb 2026 00:00:00 +0000</pubDate><guid>https://mcdermojb.github.io/portfolio/case-studies/cms-migration/</guid><description>Optimizing enterprise publishing through DITA and CCMS strategy.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Case Studies on Joe McDermott</title>
+    <link>http://localhost:1313/portfolio/case-studies/</link>
+    <description>Recent content in Case Studies on Joe McDermott</description>
+    <generator>Hugo -- 0.155.3</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 17 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/portfolio/case-studies/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI Content Refactor</title>
+      <link>http://localhost:1313/portfolio/case-studies/ai-content-refactor/</link>
+      <pubDate>Tue, 17 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/case-studies/ai-content-refactor/</guid>
+      <description>Refactoring the installation journey through architectural mapping, DITA structural optimization, and user-centric workflow orchestration.</description>
+    </item>
+    <item>
+      <title>AI-Augmented Content Engineering</title>
+      <link>http://localhost:1313/portfolio/case-studies/ai-workflow/</link>
+      <pubDate>Tue, 17 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/case-studies/ai-workflow/</guid>
+      <description>Optimizing the DDLC through prompt engineering, LLM automation, and recursive learning frameworks.</description>
+    </item>
+    <item>
+      <title>CMS Migration and Structured Authoring</title>
+      <link>http://localhost:1313/portfolio/case-studies/cms-migration/</link>
+      <pubDate>Tue, 17 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/case-studies/cms-migration/</guid>
+      <description>Optimizing enterprise publishing through DITA and CCMS strategy.</description>
+    </item>
+  </channel>
+</rss>

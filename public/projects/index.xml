@@ -1,1 +1,33 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Projects on Joe McDermott</title><link>https://mcdermojb.github.io/portfolio/projects/</link><description>Recent content in Projects on Joe McDermott</description><generator>Hugo -- 0.155.3</generator><language>en</language><lastBuildDate>Thu, 26 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://mcdermojb.github.io/portfolio/projects/index.xml" rel="self" type="application/rss+xml"/><item><title>Jira Backlog Governance: Restoring Signal to Noise in Enterprise Documentation</title><link>https://mcdermojb.github.io/portfolio/projects/jira-governance/</link><pubDate>Thu, 26 Feb 2026 00:00:00 +0000</pubDate><guid>https://mcdermojb.github.io/portfolio/projects/jira-governance/</guid><description>Architecting a systematic triage and automation framework to resolve documentation debt across multi-release product lines.</description></item><item><title>API Modernization &amp; Developer Enablement</title><link>https://mcdermojb.github.io/portfolio/projects/api-transition/</link><pubDate>Tue, 17 Feb 2026 00:00:00 +0000</pubDate><guid>https://mcdermojb.github.io/portfolio/projects/api-transition/</guid><description>Leading the architectural shift from SOAP to REST/OpenAPI through custom engineering and infrastructure decoupling.</description></item><item><title>The DLP Dictionary: Organizational Taxonomy and Governance</title><link>https://mcdermojb.github.io/portfolio/projects/dlp-dictionary/</link><pubDate>Tue, 17 Feb 2026 00:00:00 +0000</pubDate><guid>https://mcdermojb.github.io/portfolio/projects/dlp-dictionary/</guid><description>Standardizing technical language to align Engineering, Sales, and Executive stakeholders.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Projects on Joe McDermott</title>
+    <link>http://localhost:1313/portfolio/projects/</link>
+    <description>Recent content in Projects on Joe McDermott</description>
+    <generator>Hugo -- 0.155.3</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 26 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/portfolio/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Jira Backlog Reduction: Catching up on Years of Neglect</title>
+      <link>http://localhost:1313/portfolio/projects/jira-governance/</link>
+      <pubDate>Thu, 26 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/projects/jira-governance/</guid>
+      <description>Architecting a systematic triage and automation framework to resolve documentation debt across multi-release product lines.</description>
+    </item>
+    <item>
+      <title>API Modernization and Developer Delight</title>
+      <link>http://localhost:1313/portfolio/projects/api-transition/</link>
+      <pubDate>Tue, 17 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/projects/api-transition/</guid>
+      <description>Leading the shift from SOAP to REST/OpenAPI through custom CMS engineering and infrastructure migration.</description>
+    </item>
+    <item>
+      <title>The DLP Dictionary: Creating a Consitent Terminology Definition and Reference</title>
+      <link>http://localhost:1313/portfolio/projects/dlp-dictionary/</link>
+      <pubDate>Tue, 17 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/projects/dlp-dictionary/</guid>
+      <description>Standardizing technical language to align Engineering, Sales, and Executive stakeholders.</description>
+    </item>
+  </channel>
+</rss>

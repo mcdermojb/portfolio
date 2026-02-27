@@ -5,7 +5,7 @@ date: 2026-02-17
 ---
 
 ### Challenge: Resolving Workflow Bottlenecks
-Managing documentation for N-tier architectures, including Oracle 12c migrations and disaster recovery, requires a robust delivery pipeline. The legacy workflow was unable to scale with rapid software release cycles.
+Managing documentation for N-tier architectures requires a robust delivery pipeline. The legacy workflow was unable to scale with rapid software release cycles and in particular for maintaining multiple releases at scale.
 
 ### Strategy: Systems Implementation
 I led the transition to a modern structured authoring environment:
