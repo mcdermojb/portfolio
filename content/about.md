@@ -27,7 +27,7 @@ I treat documentation as an investigative discipline. I don't wait for hand-offs
 * **Developer Experience:** Swagger/OpenAPI, Postman, and Git-based "Docs-as-Code" workflows.
 * **AI Operations:** Prompt Engineering, LLM-based Content Auditing, and automated production reviews.
 * **Content Architecture:** DITA (XML), AEM, CCMS migration, Markdown, and Information Ontology.
-* **Domain Expertise:** Data Loss Prevention (DLP), Enterprise SaaS, N-tier Security, and Oracle 12c.
+* **Domain Expertise:** Data Loss Prevention (DLP), Enterprise SaaS, N-tier Security, and Oracle.
 
 ## Beyond the Documentation
 I am a process improver by nature—whether I’m refactoring a documentation pipeline or analyzing feature scope for a major release. I believe that great technical writing isn't just about clarity; it's about curiosity and the constant tuning of how we share knowledge.
