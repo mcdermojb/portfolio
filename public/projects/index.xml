@@ -6,8 +6,15 @@
     <description>Recent content in Projects on Joe McDermott</description>
     <generator>Hugo -- 0.155.3</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 26 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Feb 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/portfolio/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Architecting Efficiency: Scalable Content Reuse for High-Frequency Releases</title>
+      <link>http://localhost:1313/portfolio/projects/platform-support-automation/</link>
+      <pubDate>Fri, 27 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/projects/platform-support-automation/</guid>
+      <description>How I engineered a &amp;#39;Write Once, Publish Everywhere&amp;#39; framework to reduce maintenance overhead and accelerate release cycles.</description>
+    </item>
     <item>
       <title>Jira Backlog Reduction: Catching up on Years of Neglect</title>
       <link>http://localhost:1313/portfolio/projects/jira-governance/</link>

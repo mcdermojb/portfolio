@@ -15,16 +15,13 @@ I specialize in translating complex engineering architectures into accessible, h
 I thrive in the "chaos phase" of new technology adoption. I pride myself on the speed at which I can master a new stack to architect and execute effective content strategies.
 
 **This portfolio is a meta-demonstration of that agility.** To maintain full architectural control and prove the scalability of the Docs-as-Code model, I engineered this site using:
-* **Static Site Generation:** Hugo (PaperMod)
+* **Static Site Generation:** Hugo (PaperMod) leveraging Go-based templating
 * **Infrastructure:** GitHub Actions for automated CI/CD deployment
 * **Version Control:** Git-based content management and branching logic
 * **Automation:** YAML-driven data structures and prompt-engineered workflows
 
-## Hunting the Information
-I treat documentation as an investigative discipline. I don't wait for hand-offs; I embed within engineering teams to extract technical specifications directly from Architects, SQA, and Support. This proactive approach eliminates information silos and ensures that the documentation for REST APIs and security frameworks is technically grounded, findable, and contextually accurate.
-
 ## Optimizing the Modern Stack
-* **Developer Experience:** Swagger/OpenAPI, Postman, and Git-based "Docs-as-Code" workflows.
+* **Developer Experience:** Swagger/OpenAPI, Postman, Go (Golang), and Git-based "Docs-as-Code" workflows.
 * **AI Operations:** Prompt Engineering, LLM-based Content Auditing, and automated production reviews.
 * **Content Architecture:** DITA (XML), AEM, CCMS migration, Markdown, and Information Ontology.
 * **Domain Expertise:** Data Loss Prevention (DLP), Enterprise SaaS, N-tier Security, and Oracle.
