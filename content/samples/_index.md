@@ -1,26 +1,22 @@
 ---
-title: "Samples"
-description: ""
+title: "Writing samples"
+description: "Technical writing and content engineering samples focusing on API design and security."
 layout: "list"
-draft: false
 ---
 
-*Direct links (where available) to documentation platforms.*
-Below is a selection of my technical writing and content engineering work. These samples highlight my ability to translate complex security architectures into actionable developer and executive content.
+I translate complex security concepts into actionable content for developers and executives.
 
-## Recent Samples
+## Selected work
 
-* **[REST API Design & Developer Reference](https://apidocs.security.com/#/doc?id=introduction)**
-    * **The Impact:** Engineered a comprehensive developer portal using **Swagger/OpenAPI** and **Postman** to streamline N-tier authentication and endpoint security onboarding.
-* **[CyberArk Secure Credential Integration](https://techdocs.broadcom.com/us/en/symantec-security-software/information-security/data-loss-prevention/25-1/managing-the-enforce-server/credential-store/cyberark-credential-store.html)**
-    * **The Impact:** Enabled enterprise customers to automate security compliance by documenting API-based vaulting mechanics for high-availability DLP Enforce Servers.
-* **[Kerberos Authentication for N-Tier Architectures](https://techdocs.broadcom.com/us/en/symantec-security-software/information-security/data-loss-prevention/25-1/install-dlp/configuring-certificates-for-secure-server-communications/using-kerberos-enforce-server-and-the-database/enable-kerberos-authentication-new-installations.html)**
-    * **The Impact:** Drastically reduced installation-related support overhead by providing precise syntax for Ticket-Granting Ticket (TGT) configurations in complex database environments.
-* **Executive Security Whitepapers** *(Proprietary)*
-    * **The Impact:** Synthesized technical Data Loss Prevention logic into high-level narratives for C-suite stakeholders, driving a **20% increase** in strategic engagement and feature adoption.
-
----
-
-*For more information on my architectural work and process improvements, see my [Case Studies](/case-studies/).*
+* **[Developer portal and API reference](https://apidocs.security.com/#/doc?id=introduction)**
+  Streamlined N-tier authentication and security onboarding using Swagger/OpenAPI and Postman.
+* **[CyberArk credential integration](https://techdocs.broadcom.com/us/en/symantec-security-software/information-security/data-loss-prevention/25-1/managing-the-enforce-server/credential-store/cyberark-credential-store.html)**
+  Documented API-based vaulting to help enterprise customers automate security compliance for high-availability DLP Enforce Servers.
+* **[Kerberos authentication for N-tier architectures](https://techdocs.broadcom.com/us/en/symantec-security-software/information-security/data-loss-prevention/25-1/install-dlp/configuring-certificates-for-secure-server-communications/using-kerberos-enforce-server-and-the-database/enable-kerberos-authentication-new-installations.html)**
+  Reduced support overhead by providing precise TGT configuration syntax for complex database environments.
+* **Executive security whitepapers** *(Proprietary)*
+  Translated technical Data Loss Prevention logic into narratives for C-suite stakeholders, increasing strategic engagement by 20%.
 
 ---
+
+See my [case studies](/case-studies/) for more on my architectural work and process improvements.

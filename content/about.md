@@ -3,30 +3,32 @@ title: "About"
 date: 2026-02-27
 ---
 
-# Joe McDermott
-**Senior Principal Information Developer & Content Engineer | Berkeley, CA**
-**[LinkedIn](https://linkedin.com/in/joe-b-mcdermott)** | **[Email](mailto:mcd.joe@icloud.com)**
-
-I specialize in translating complex engineering architectures into accessible, high-impact developer experiences. My work focuses on closing the gap between system design and user success through structured content, technical governance, and proactive leadership.
+I bridge the gap between complex engineering design and user success. As a Senior Principal Information Developer, I focus on structured content, technical governance, and proactive leadership to build high-impact developer experiences.
 
 ---
 
-## Mastering Technical Complexity
-I thrive in the "chaos phase" of new technology adoption. I pride myself on the speed at which I can master a new stack to architect and execute effective content strategies.
+## Technical agility in practice
+I thrive in the "chaos phase" of technology adoption. I master new stacks quickly to architect content strategies that scale. 
 
-**This portfolio is a meta-demonstration of that agility.** To maintain full architectural control and prove the scalability of the Docs-as-Code model, I engineered this site using:
-* **Static Site Generation:** Hugo (PaperMod) leveraging Go-based templating
-* **Infrastructure:** GitHub Actions for automated CI/CD deployment
-* **Version Control:** Git-based content management and branching logic
-* **Automation:** YAML-driven data structures and prompt-engineered workflows
+**This portfolio is a meta-demonstration of that agility.** I engineered this site to prove the scalability of the docs-as-code model using:
 
-## Optimizing the Modern Stack
-* **Developer Experience:** Swagger/OpenAPI, Postman, Go (Golang), and Git-based "Docs-as-Code" workflows.
-* **AI Operations:** Prompt Engineering, LLM-based Content Auditing, and automated production reviews.
-* **Content Architecture:** DITA (XML), AEM, CCMS migration, Markdown, and Information Ontology.
-* **Domain Expertise:** Data Loss Prevention (DLP), Enterprise SaaS, N-tier Security, and Oracle.
+* **Static site generation:** Hugo (PaperMod) with Go-based templating for logic-driven layouts.
+* **Infrastructure:** GitHub Actions for automated CI/CD deployment.
+* **Version control:** Git for content management and branching logic.
+* **Automation:** YAML data structures and prompt-engineered workflows.
 
-## Beyond the Documentation
-I am a process improver by nature—whether I’m refactoring a documentation pipeline or analyzing feature scope for a major release. I believe that great technical writing isn't just about clarity; it's about curiosity and the constant tuning of how we share knowledge.
+## The modern stack
+I optimize documentation pipelines and developer portals using industry-standard tools and frameworks:
 
-When I’m not navigating complex software landscapes or refactoring Markdown, you’ll find me on the diamond playing or coaching baseball and softball, or exploring the trails of the Berkeley hills. I bring the same "team-first" coaching mentality to my professional work, mentoring writers and advocating for documentation as a core pillar of product success.
+* **Developer experience:** Swagger/OpenAPI, Postman, Go (Golang), and Git-based workflows.
+* **AI operations:** Prompt engineering, LLM-based content auditing, and automated production reviews.
+* **Content architecture:** DITA (XML), AEM, CCMS migration, and Information Ontology.
+* **Domain expertise:** Data Loss Prevention (DLP), Enterprise SaaS, N-tier security, and Oracle.
+
+## Investigating the information
+I treat documentation as an investigative discipline. Instead of waiting for hand-offs, I embed with engineering teams to extract specifications directly from architects and SQA. This proactive approach eliminates silos and ensures that security frameworks and REST API docs are technically grounded and accurate.
+
+## Beyond the documentation
+I am a process improver by nature. Whether I am refactoring a pipeline or analyzing feature scope, I believe great technical writing requires curiosity and constant tuning.
+
+When I’m not refactoring Markdown, you’ll find me coaching baseball and softball or exploring the trails of the Berkeley hills. I bring a "team-first" coaching mentality to my professional work—mentoring writers and advocating for documentation as a core pillar of product success.

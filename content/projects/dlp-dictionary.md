@@ -1,22 +1,42 @@
 ---
-title: "The DLP Dictionary: Creating a Consitent Terminology Definition and Reference"
-description: "Standardizing technical language to align Engineering, Sales, and Executive stakeholders."
+title: "The DLP dictionary: Standardizing enterprise terminology"
+description: "Creating a unified technical taxonomy to align engineering, sales, and executive stakeholders."
 date: 2026-02-17
 ShowToc: true
-TocOpen: false
 ---
 
-### Challenge: Terminology Fragmentation
-In enterprise Data Loss Prevention (DLP), inconsistent terminology across Architects, Product Managers, and Field Enablement creates operational risk. Disparate language for core features leads to friction in the development cycle and the sales process.
+## Project scope
+| Metric | Result | Status |
+| :--- | :--- | :--- |
+| **Review time** | 30% reduction | Production |
+| **Stakeholder engagement** | 20% increase | Verified |
+| **Governance** | Automated LLM templates | Deployed |
+| **Taxonomy** | Global source of truth | Standardized |
 
-### Implementation: Establishing a Source of Truth
-I led the "DLP Dictionary" initiative to serve as the authoritative taxonomy for the Symantec organization. My approach focused on linguistic precision and automation:
+---
 
-* **Cross-Functional Alignment:** Collaborated with Architects, SQA, and Field Enablement to define technical terms and acronyms for both engineering and executive audiences.
-* **Automated Governance:** Engineered prompt-based templates to automate terminology enforcement, reducing manual editorial review time by **30%**.
-* **Quality Assurance:** Applied over twelve years of knowledge working with the product to spot redundancies, in-clarities, and superfluous terms.
+## The challenge: Terminology fragmentation
+In enterprise Data Loss Prevention (DLP), inconsistent language across architects, product managers, and field enablement creates operational risk. Disparate terms for core features lead to friction during the development cycle and confusion during the sales process.
 
-### Results
-* **Market Impact:** Standardized technical clarity enabled more effective engagement with CISOs, contributing to a **20% increase** in stakeholder engagement.
-* **Operational Efficiency:** Eliminated terminology disputes during the review phase, accelerating the Documentation Development Life Cycle (DDLC).
-* **Scalable Pedagogy:** Established a framework for peer writers to maintain content strategy and brand voice at scale.
+## Project execution: Establishing a source of truth
+I led the "DLP Dictionary" initiative to serve as the authoritative taxonomy for the Symantec organization. My approach combined linguistic precision with modern automation to ensure the taxonomy was both accurate and easy to enforce.
+
+### 1. Cross-functional alignment
+I collaborated with architects, SQA, and field enablement to define technical terms and acronyms. This process ensured that definitions satisfied the technical depth required by engineering while remaining accessible to C-suite executives and CISOs.
+
+### 2. Automated governance
+I engineered prompt-based templates to automate terminology enforcement across the documentation set. By using LLMs to flag non-standard language during the drafting phase, I reduced manual editorial review time by **30%**.
+
+### 3. Technical quality assurance
+I applied 12 years of product expertise to audit the existing documentation set. I identified and eliminated redundant terms, clarified ambiguous technical concepts, and removed superfluous jargon that hindered user comprehension.
+
+## Project outcomes
+* **Market impact:** Increased stakeholder engagement by **20%** by providing CISOs with clear, consistent technical narratives.
+* **Operational efficiency:** Accelerated the documentation development life cycle (DDLC) by eliminating terminology disputes during the review phase.
+* **Scalable pedagogy:** Established a standardized framework that allows peer writers to maintain content strategy and brand voice consistently across global teams.
+* **Reduced support friction:** Improved user findability by ensuring that UI labels, help content, and support articles use a unified vocabulary.
+
+## Technical stack
+* **Automation:** Prompt engineering, LLM-based content auditing.
+* **Governance:** Microsoft Manual of Style, custom corporate style guides.
+* **Collaboration:** Jira, Confluence, DITA XML.
