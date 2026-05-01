@@ -1,1 +1,47 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Posts on Joe McDermott</title><link>https://mcdermojb.github.io/portfolio/posts/</link><description>Recent content in Posts on Joe McDermott</description><generator>Hugo -- 0.155.3</generator><language>en</language><lastBuildDate>Thu, 26 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://mcdermojb.github.io/portfolio/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>From Vending Machines to Interrogation: Drafting a Recursive Learning Framework</title><link>https://mcdermojb.github.io/portfolio/posts/ontology-and-ai/</link><pubDate>Thu, 26 Feb 2026 00:00:00 +0000</pubDate><guid>https://mcdermojb.github.io/portfolio/posts/ontology-and-ai/</guid><description>Ruminations on transitioning from &amp;#39;one-shot&amp;#39; prompting to a recursive, interrogative methodology in technical communication.</description></item><item><title>My First Post</title><link>https://mcdermojb.github.io/portfolio/posts/my-first-post/</link><pubDate>Wed, 11 Feb 2026 14:30:28 -0800</pubDate><guid>https://mcdermojb.github.io/portfolio/posts/my-first-post/</guid><description>&lt;p&gt;Hello world!&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on Joe McDermott</title>
+    <link>http://localhost:1313/portfolio/posts/</link>
+    <description>Recent content in Posts on Joe McDermott</description>
+    <generator>Hugo -- 0.155.3</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 01 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/portfolio/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The obvious cost of the AI &#39;belt-tightening&#39; delusion</title>
+      <link>http://localhost:1313/portfolio/posts/ai-product-spiral/</link>
+      <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/posts/ai-product-spiral/</guid>
+      <description>A response to Mark Cardillo: Why cutting documentation teams in the age of AI creates a spiral of declining product value.</description>
+    </item>
+    <item>
+      <title>The &#39;Ghost in the DOM&#39;: Why AI is the technical writer’s new best friend</title>
+      <link>http://localhost:1313/portfolio/posts/ghost-in-the-dom/</link>
+      <pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/posts/ghost-in-the-dom/</guid>
+      <description>A strategic look at how integrated LLMs like Gemini are transforming technical documentation from rote drafting to structural auditing.</description>
+    </item>
+    <item>
+      <title>The governance gap: Why your AI shouldn’t have your API keys (yet)</title>
+      <link>http://localhost:1313/portfolio/posts/governance-gap/</link>
+      <pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/posts/governance-gap/</guid>
+      <description>An architectural look at the Model Context Protocol (MCP) and why technical writers are the key to bridging the AI governance gap.</description>
+    </item>
+    <item>
+      <title>From Vending Machines to Interrogation: Drafting a Recursive Learning Framework</title>
+      <link>http://localhost:1313/portfolio/posts/ontology-and-ai/</link>
+      <pubDate>Thu, 26 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/posts/ontology-and-ai/</guid>
+      <description>Ruminations on transitioning from &amp;#39;one-shot&amp;#39; prompting to a recursive, interrogative methodology in technical communication.</description>
+    </item>
+    <item>
+      <title>My First Post</title>
+      <link>http://localhost:1313/portfolio/posts/my-first-post/</link>
+      <pubDate>Wed, 11 Feb 2026 14:30:28 -0800</pubDate>
+      <guid>http://localhost:1313/portfolio/posts/my-first-post/</guid>
+      <description>&lt;p&gt;Hello world!&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

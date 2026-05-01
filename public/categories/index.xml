@@ -1,1 +1,47 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Categories on Joe McDermott</title><link>https://mcdermojb.github.io/portfolio/categories/</link><description>Recent content in Categories on Joe McDermott</description><generator>Hugo -- 0.155.3</generator><language>en</language><atom:link href="https://mcdermojb.github.io/portfolio/categories/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Categories on Joe McDermott</title>
+    <link>http://localhost:1313/portfolio/categories/</link>
+    <description>Recent content in Categories on Joe McDermott</description>
+    <generator>Hugo -- 0.155.3</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 01 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/portfolio/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI Strategy</title>
+      <link>http://localhost:1313/portfolio/categories/ai-strategy/</link>
+      <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/categories/ai-strategy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Information Development</title>
+      <link>http://localhost:1313/portfolio/categories/information-development/</link>
+      <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/categories/information-development/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AI</title>
+      <link>http://localhost:1313/portfolio/categories/ai/</link>
+      <pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/categories/ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AI Governance</title>
+      <link>http://localhost:1313/portfolio/categories/ai-governance/</link>
+      <pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/categories/ai-governance/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Content Engineering</title>
+      <link>http://localhost:1313/portfolio/categories/content-engineering/</link>
+      <pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/categories/content-engineering/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

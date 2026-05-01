@@ -1,1 +1,110 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Tags on Joe McDermott</title><link>https://mcdermojb.github.io/portfolio/tags/</link><description>Recent content in Tags on Joe McDermott</description><generator>Hugo -- 0.155.3</generator><language>en</language><lastBuildDate>Thu, 26 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://mcdermojb.github.io/portfolio/tags/index.xml" rel="self" type="application/rss+xml"/><item><title>AI</title><link>https://mcdermojb.github.io/portfolio/tags/ai/</link><pubDate>Thu, 26 Feb 2026 00:00:00 +0000</pubDate><guid>https://mcdermojb.github.io/portfolio/tags/ai/</guid><description/></item><item><title>Docs-as-Code</title><link>https://mcdermojb.github.io/portfolio/tags/docs-as-code/</link><pubDate>Thu, 26 Feb 2026 00:00:00 +0000</pubDate><guid>https://mcdermojb.github.io/portfolio/tags/docs-as-code/</guid><description/></item><item><title>Information Architecture</title><link>https://mcdermojb.github.io/portfolio/tags/information-architecture/</link><pubDate>Thu, 26 Feb 2026 00:00:00 +0000</pubDate><guid>https://mcdermojb.github.io/portfolio/tags/information-architecture/</guid><description/></item><item><title>Ruminations</title><link>https://mcdermojb.github.io/portfolio/tags/ruminations/</link><pubDate>Thu, 26 Feb 2026 00:00:00 +0000</pubDate><guid>https://mcdermojb.github.io/portfolio/tags/ruminations/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tags on Joe McDermott</title>
+    <link>http://localhost:1313/portfolio/tags/</link>
+    <description>Recent content in Tags on Joe McDermott</description>
+    <generator>Hugo -- 0.155.3</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 01 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/portfolio/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Leadership</title>
+      <link>http://localhost:1313/portfolio/tags/leadership/</link>
+      <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/tags/leadership/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Product Experience</title>
+      <link>http://localhost:1313/portfolio/tags/product-experience/</link>
+      <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/tags/product-experience/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Technical Writing</title>
+      <link>http://localhost:1313/portfolio/tags/technical-writing/</link>
+      <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/tags/technical-writing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Accessibility</title>
+      <link>http://localhost:1313/portfolio/tags/accessibility/</link>
+      <pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/tags/accessibility/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AI Readiness</title>
+      <link>http://localhost:1313/portfolio/tags/ai-readiness/</link>
+      <pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/tags/ai-readiness/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>API Design</title>
+      <link>http://localhost:1313/portfolio/tags/api-design/</link>
+      <pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/tags/api-design/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>DOM</title>
+      <link>http://localhost:1313/portfolio/tags/dom/</link>
+      <pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/tags/dom/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gemini</title>
+      <link>http://localhost:1313/portfolio/tags/gemini/</link>
+      <pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/tags/gemini/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>MCP</title>
+      <link>http://localhost:1313/portfolio/tags/mcp/</link>
+      <pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/tags/mcp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Security</title>
+      <link>http://localhost:1313/portfolio/tags/security/</link>
+      <pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/tags/security/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AI</title>
+      <link>http://localhost:1313/portfolio/tags/ai/</link>
+      <pubDate>Thu, 26 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/tags/ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Docs-as-Code</title>
+      <link>http://localhost:1313/portfolio/tags/docs-as-code/</link>
+      <pubDate>Thu, 26 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/tags/docs-as-code/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Information Architecture</title>
+      <link>http://localhost:1313/portfolio/tags/information-architecture/</link>
+      <pubDate>Thu, 26 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/tags/information-architecture/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ruminations</title>
+      <link>http://localhost:1313/portfolio/tags/ruminations/</link>
+      <pubDate>Thu, 26 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/tags/ruminations/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
