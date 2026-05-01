@@ -1,7 +1,7 @@
 
 ---
 title: "The obvious cost of the AI 'belt-tightening' delusion"
-date: 2026-05-01
+date: 2026-04-30
 description: "A response to Mark Cardillo: Why cutting documentation teams in the age of AI creates a spiral of declining product value."
 categories: ["Information Development", "AI Strategy"]
 tags: ["Leadership", "Product Experience", "Technical Writing"]
