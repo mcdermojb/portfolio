@@ -5,7 +5,7 @@ date: 2026-05-01
 description: "A response to Mark Cardillo: Why cutting documentation teams in the age of AI creates a spiral of declining product value."
 categories: ["Information Development", "AI Strategy"]
 tags: ["Leadership", "Product Experience", "Technical Writing"]
-draft: true
+draft: false
 ---
 
 I recently came across a post by **Mark Cardillo** that struck a chord, particularly his observation that documentation is often the first head on the chopping block when corporate budgets face the "belt-tightening" phase. It is an extremely timely issue. As AI dominates the conversation, I see more and more budgets being slashed under the guise of automation. But there is a fundamental misunderstanding at play here: we are told AI will automate rote tasks, yet the cuts are hitting the **knowledge workers**—the very people who manage the nuances AI cannot grasp.
