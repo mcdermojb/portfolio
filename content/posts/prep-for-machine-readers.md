@@ -1,6 +1,6 @@
 ---
-title: "Get ready for the machine reader: Prevent your your documentation from losing the failing AI revolution"
-date: 2026-05-13
+title: "Get ready for the machine reader: Prevent your documentation from losing the failing AI revolution"
+date: 2026-05-12
 description: "A strategic shift from human-centric writing to a dual-audience standard: engineering content that is both readable for people and computable for machines."
 categories: ["AI Strategy", "Content Engineering"]
 tags: ["LLM", "Information Architecture", "Ontology", "RAG"]
