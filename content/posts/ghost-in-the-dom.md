@@ -4,7 +4,7 @@ date: 2026-04-22
 description: "A strategic look at how integrated LLMs like Gemini are transforming technical documentation from rote drafting to structural auditing."
 categories: ["AI", "Content Engineering"]
 tags: ["Gemini", "Technical Writing", "DOM", "Accessibility"]
-draft: false
+draft: true
 ---
 
 ## The "zero-to-one" problem
