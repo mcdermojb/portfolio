@@ -10,8 +10,9 @@ canonifyURLs = false
     env = 'production'
     mainSections = ["posts"]
     description = "Senior Principal Information Developer specializing in REST APIs, enterprise security, and AI-augmented workflows."
-    ShowToc = false          
-    TocOpen = false          
+    showbreadcrumbs = true     # Enforces clean navigation paths at the top of topics
+    showtoc = true             # Keeps the TOC data compiling
+    tocopen = true        
 
 [params.profileMode]
     enable = false           

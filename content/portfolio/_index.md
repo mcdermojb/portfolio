@@ -12,9 +12,9 @@ This portfolio tracks my work as a technical leader across documentation enginee
 
 ### Section Overview
 The files in this section document deep-dive operational overviews of enterprise content infrastructure. Rather than focusing on simple editorial updates, these studies highlight structural transformations:
-*   **Information Architecture Overhauls:** Re-engineering fragmented installation guides via clean-room validation and top-down architectural mapping to reduce support ticket volumes.
-*   **API & Core Infrastructure Transitions:** Migrating legacy documentation portfolios to structured OpenAPI/Swagger specifications to maximize developer onboarding velocity.
-*   **Systems & Backlog Operations:** Coordinating cross-functional data migrations across global CCMS systems, automating internal attribution rules, and implementing metrics-driven systems to tame technical documentation debt.
+* **Information Architecture Overhauls:** Re-engineering fragmented installation guides via clean-room validation and top-down architectural mapping to reduce support ticket volumes.
+* **API & Core Infrastructure Transitions:** Migrating legacy documentation portfolios to structured OpenAPI/Swagger specifications to maximize developer onboarding velocity.
+* **Systems & Backlog Operations:** Coordinating cross-functional data migrations across global CCMS systems, automating internal attribution rules, and implementing metrics-driven systems to tame technical documentation debt.
 
 | Project Case Study | Operational Focus | Context / Domain | Impact & Core Narrative |
 | :--- | :--- | :--- | :--- |
@@ -32,15 +32,15 @@ The files in this section document deep-dive operational overviews of enterprise
 
 ### Section Overview
 The articles and essays compiled here explore technical strategy, AI governance, and structural information design. These works advocate for the evolving role of information developers as data architects and prompt engineers:
-*   **CI/CD Pipeline Integration:** Engineering custom LLM solutions (such as automated Gemini skills) directly into developer Git pull requests to eliminate manual style and terminology review bottlenecks.
-*   **The AI Governance Layer:** Addressing the security, predictability, and operational risks of autonomous AI agents interacting with raw REST endpoints via the Model Context Protocol (MCP).
-*   **The Machine-Computable Pivot:** Shifting documentation models away from legacy visual layouts toward structured, dual-audience Markdown architectures optimized for semantic vector RAG chunking and ontology compliance layers.
+* **CI/CD Pipeline Integration:** Engineering custom LLM solutions (such as automated Gemini skills) directly into developer Git pull requests to eliminate manual style and terminology review bottlenecks.
+* **The AI Governance Layer:** Addressing the security, predictability, and operational risks of autonomous AI agents interacting with raw REST endpoints via the Model Context Protocol (MCP).
+* **The Machine-Computable Pivot:** Shifting documentation models away from legacy visual layouts toward structured, dual-audience Markdown architectures optimized for semantic vector RAG chunking and ontology compliance layers.
 
 | Strategic Paper / Post | Core Technology | Architectural Theme | Core Thesis & Impact |
 | :--- | :--- | :--- | :--- |
 | **[Automating Our API Pipeline]({{< ref "/posts/ai-api-automation-repo.md" >}})** | Gemini LLM / Git PRs | CI/CD Automation | Integrating custom LLM tools directly into the developer workflow to run automated style and terminology audits. |
 | **[The Governance Gap]({{< ref "/posts/governance-gap.md" >}})** | Model Context Protocol | Security & Governance | Scoring REST API endpoints for autonomous AI agents using a five-dimension capability abstraction model. |
 | **[Ready for Machine Readers]({{< ref "/posts/prep-for-machine-readers.md" >}})** | Vector RAG / Ontologies | Information Architecture | Shifting to dual-audience engineering standards so data models are both human-readable and machine-computable. |
-| **[The 'Ghost in the DOM']({{< ref "/posts/ghost-in-the-dom.md" >}})** | Multimodal LLMs | Accessibility Trees | Leveraging spatial and semantic engine capabilities to conduct continuous structural UX and accessibility audits]. |
+| **[The 'Ghost in the DOM']({{< ref "/posts/ghost-in-the-dom.md" >}})** | Multimodal LLMs | Accessibility Trees | Leveraging spatial and semantic engine capabilities to conduct continuous structural UX and accessibility audits. |
 | **[The AI Product Spiral]({{< ref "/posts/ai-product-spiral.md" >}})** | Technology Lifecycle | AI Strategy | Navigating product evolution states and keeping information accuracy grounded during rapid tool iteration. |
 | **[Ontology and AI]({{< ref "/posts/ontology-and-ai.md" >}})** | Semantic Mapping | Knowledge Graphs | Utilizing structured taxonomies, classes, and axioms to control agent outputs and prevent logic failures. |

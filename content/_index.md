@@ -1,11 +1,11 @@
 ---
-title: ""
-layout: "index"
-showToc: false
+title: "About Me"
+layout: "homepage"   
+showToc: false       
 date: 2026-02-27
 ---
-
-I translate complex engineering intent into seamless developer success. As a Senior Principal Information Developer, I don’t just manage documentation—I architect the ecosystems where engineering velocity meets user adoption.
+# About Me
+I translate complex engineering intent into seamless developer success. As a Senior Principal Information Developer, I don’t just manage documentation—I architect the ecosystems where engineering complexity meets user adoption.
 
 ---
 
