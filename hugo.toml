@@ -2,42 +2,19 @@ baseURL = 'https://mcdermojb.github.io/portfolio/'
 theme = 'PaperMod'
 title = 'Joe McDermott'
 
-# Pathing Logic for Git
+# Robust Pathing for GitHub Pages Subfolder Hosting
 relativeURLs = false
-canonifyURLs = true
+canonifyURLs = false
 
 [params]
     env = 'production'
     mainSections = ["posts"]
     description = "Senior Principal Information Developer specializing in REST APIs, enterprise security, and AI-augmented workflows."
-    ShowToc = true          # Enables the TOC
-    TocOpen = false          # Keeps the TOC expanded by default (recommended for long case studies)
+    ShowToc = false          
+    TocOpen = false          
 
 [params.profileMode]
-    enabled = true
-    title = "Joe McDermott"
-    subtitle = "Information Developer and Content Engineer | Translating complex code into actionable information."
-    imageUrl = "" 
-
-    [[params.profileMode.buttons]]
-        name = "About"
-        url = "about/"
-
-    [[params.profileMode.buttons]]
-        name = "Case Studies"
-        url = "case-studies/"
-
-    [[params.profileMode.buttons]]
-        name = "Samples"
-        url = "samples/"
-
-    [[params.profileMode.buttons]]
-        name = "Projects"
-        url = "projects/"
-
-    [[params.profileMode.buttons]]
-        name = "Posts"
-        url = "posts/"
+    enable = false           
 
 [params.assets]
     disableFingerprinting = false 
@@ -57,31 +34,26 @@ canonifyURLs = true
 
 # MAIN MENU NAVIGATION
 [[menu.main]]
-    identifier = "about"
     name = "About"
-    url = "about/"
+    url = ""                 # Maps directly to your baseURL root
     weight = 10
 
 [[menu.main]]
-    identifier = "case-studies"
-    name = "Case Studies"
-    url = "case-studies/"
+    name = "Portfolio"
+    url = "portfolio/"       # Relative to baseURL (resolves to /portfolio/portfolio/)
     weight = 20
 
 [[menu.main]]
-    identifier = "samples"
-    name = "Samples"
-    url = "samples/"
+    name = "Resume"
+    url = "resume/"
     weight = 30
 
 [[menu.main]]
-    identifier = "projects"
-    name = "Projects"
-    url = "projects/"
+    name = "Case Studies"
+    url = "case-studies/"
     weight = 40
 
 [[menu.main]]
-    identifier = "posts"
     name = "Posts"
     url = "posts/"
     weight = 50
