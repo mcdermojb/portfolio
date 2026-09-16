@@ -8,7 +8,7 @@ canonifyURLs = false
 
 [params]
     env = 'production'
-    mainSections = ["posts"]
+    mainSections = ["none"]
     description = "Senior Principal Information Developer specializing in REST APIs, enterprise security, and AI-augmented workflows."
     showbreadcrumbs = true     # Enforces clean navigation paths at the top of topics
     showtoc = true             # Keeps the TOC data compiling
