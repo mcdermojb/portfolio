@@ -2,35 +2,77 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/portfolio/categories/ai-strategy/</loc>
-    <lastmod>2026-05-01T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/portfolio/posts/342-topics-to-58-ia-restructuring/</loc>
+    <lastmod>2026-09-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/portfolio/categories/</loc>
-    <lastmod>2026-05-01T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/portfolio/tags/ai/</loc>
+    <lastmod>2026-09-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/portfolio/categories/information-development/</loc>
-    <lastmod>2026-05-01T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/portfolio/tags/dita/</loc>
+    <lastmod>2026-09-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/portfolio/</loc>
-    <lastmod>2026-05-01T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/portfolio/tags/docs-as-code/</loc>
+    <lastmod>2026-09-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/portfolio/tags/leadership/</loc>
-    <lastmod>2026-05-01T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/portfolio/tags/information-architecture/</loc>
+    <lastmod>2026-09-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/portfolio/posts/</loc>
-    <lastmod>2026-05-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/portfolio/tags/product-experience/</loc>
-    <lastmod>2026-05-01T00:00:00+00:00</lastmod>
+    <lastmod>2026-09-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/portfolio/tags/</loc>
-    <lastmod>2026-05-01T00:00:00+00:00</lastmod>
+    <lastmod>2026-09-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/portfolio/portfolio/kerberos-authentication/</loc>
+    <lastmod>2026-07-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/portfolio/portfolio/cyberark-integration/</loc>
+    <lastmod>2026-07-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/portfolio/portfolio/</loc>
+    <lastmod>2026-07-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/portfolio/resume/</loc>
+    <lastmod>2026-07-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/portfolio/posts/ai-api-automation-repo/</loc>
+    <lastmod>2026-06-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/portfolio/categories/ai-strategy/</loc>
+    <lastmod>2026-05-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/portfolio/categories/</loc>
+    <lastmod>2026-05-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/portfolio/categories/content-engineering/</loc>
+    <lastmod>2026-05-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/portfolio/posts/prep-for-machine-readers/</loc>
+    <lastmod>2026-05-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/portfolio/tags/llm/</loc>
+    <lastmod>2026-05-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/portfolio/tags/ontology/</loc>
+    <lastmod>2026-05-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/portfolio/tags/rag/</loc>
+    <lastmod>2026-05-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/portfolio/categories/information-development/</loc>
+    <lastmod>2026-04-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/portfolio/tags/leadership/</loc>
+    <lastmod>2026-04-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/portfolio/tags/product-experience/</loc>
+    <lastmod>2026-04-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/portfolio/tags/technical-writing/</loc>
-    <lastmod>2026-05-01T00:00:00+00:00</lastmod>
+    <lastmod>2026-04-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/portfolio/posts/ai-product-spiral/</loc>
-    <lastmod>2026-05-01T00:00:00+00:00</lastmod>
+    <lastmod>2026-04-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/portfolio/tags/accessibility/</loc>
     <lastmod>2026-04-22T00:00:00+00:00</lastmod>
@@ -45,9 +87,6 @@
     <lastmod>2026-04-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/portfolio/tags/api-design/</loc>
-    <lastmod>2026-04-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/portfolio/categories/content-engineering/</loc>
     <lastmod>2026-04-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/portfolio/tags/dom/</loc>
@@ -68,34 +107,22 @@
     <loc>http://localhost:1313/portfolio/posts/governance-gap/</loc>
     <lastmod>2026-04-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/portfolio/about/</loc>
+    <loc>http://localhost:1313/portfolio/</loc>
     <lastmod>2026-02-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/portfolio/case-studies/</loc>
     <lastmod>2026-02-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/portfolio/projects/platform-support-automation/</loc>
-    <lastmod>2026-02-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/portfolio/projects/</loc>
+    <loc>http://localhost:1313/portfolio/portfolio/platform-support-automation/</loc>
     <lastmod>2026-02-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/portfolio/case-studies/install-content-refactor/</loc>
     <lastmod>2026-02-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/portfolio/tags/ai/</loc>
-    <lastmod>2026-02-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/portfolio/tags/docs-as-code/</loc>
-    <lastmod>2026-02-26T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/portfolio/posts/ontology-and-ai/</loc>
     <lastmod>2026-02-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/portfolio/tags/information-architecture/</loc>
-    <lastmod>2026-02-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/portfolio/projects/jira-backlog/</loc>
+    <loc>http://localhost:1313/portfolio/portfolio/jira-backlog/</loc>
     <lastmod>2026-02-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/portfolio/tags/ruminations/</loc>
@@ -104,23 +131,19 @@
     <loc>http://localhost:1313/portfolio/case-studies/ai-workflow/</loc>
     <lastmod>2026-02-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/portfolio/projects/api-transition/</loc>
+    <loc>http://localhost:1313/portfolio/portfolio/api-transition/</loc>
     <lastmod>2026-02-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/portfolio/case-studies/cms-migration/</loc>
     <lastmod>2026-02-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/portfolio/projects/dlp-dictionary/</loc>
+    <loc>http://localhost:1313/portfolio/portfolio/dlp-dictionary/</loc>
     <lastmod>2026-02-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/portfolio/posts/my-first-post/</loc>
     <lastmod>2026-02-11T14:30:28-08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/portfolio/projects/attribution-automation/</loc>
+    <loc>http://localhost:1313/portfolio/portfolio/attribution-automation/</loc>
     <lastmod>2025-12-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/portfolio/resume/</loc>
-  </url><url>
-    <loc>http://localhost:1313/portfolio/samples/</loc>
   </url>
 </urlset>

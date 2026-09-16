@@ -6,12 +6,34 @@
     <description>Recent content in Posts on Joe McDermott</description>
     <generator>Hugo -- 0.155.3</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 01 May 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 16 Sep 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/portfolio/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>342 topics to 58: what AI-assisted IA restructuring actually took</title>
+      <link>http://localhost:1313/portfolio/posts/342-topics-to-58-ia-restructuring/</link>
+      <pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/posts/342-topics-to-58-ia-restructuring/</guid>
+      <description>A real-world case study on using AI to condense 342 legacy documentation topics down to 58 Head Topics while cutting page count by 83%.</description>
+    </item>
+    <item>
+      <title>Automating Our API Documentation Pipeline</title>
+      <link>http://localhost:1313/portfolio/posts/ai-api-automation-repo/</link>
+      <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/posts/ai-api-automation-repo/</guid>
+      <description>&lt;h3 id=&#34;automating-our-api-documentation-pipeline&#34;&gt;Automating Our API Documentation Pipeline&lt;/h3&gt;
+&lt;p&gt;Every time a developer submitted a Git Pull Request (PR) containing API validation messages or Swagger documentation, it included roughly 70 to 100 strings. Reviewing these manually was a massive time sink, taking about an hour per PR. In the vast majority of cases, these strings required tedious style updates. In a smaller minority of cases, they required deep-dive edits to clarify feature details, correct terminology, or address bespoke issues that required pulling API code into a client to test the result.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Get ready for the machine reader: Prevent your documentation from losing the failing AI revolution</title>
+      <link>http://localhost:1313/portfolio/posts/prep-for-machine-readers/</link>
+      <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/posts/prep-for-machine-readers/</guid>
+      <description>A strategic shift from human-centric writing to a dual-audience standard: engineering content that is both readable for people and computable for machines.</description>
+    </item>
     <item>
       <title>The obvious cost of the AI &#39;belt-tightening&#39; delusion</title>
       <link>http://localhost:1313/portfolio/posts/ai-product-spiral/</link>
-      <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/portfolio/posts/ai-product-spiral/</guid>
       <description>A response to Mark Cardillo: Why cutting documentation teams in the age of AI creates a spiral of declining product value.</description>
     </item>

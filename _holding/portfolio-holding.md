@@ -1,5 +1,5 @@
 ---
-title: "Writing samples"
+title: "Portfolio [holding pen]"
 description: "Technical writing and content engineering samples focusing on API design and security."
 layout: "list"
 ---

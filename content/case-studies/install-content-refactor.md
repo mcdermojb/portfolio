@@ -34,7 +34,9 @@ I am designing a new information model that moves away from siloed topics and to
 * Refactoring DITA XML structures to support a more linear, "Single-Path" onboarding experience.
 
 ### 3. Cross-functional alignment
-I am collaborating with Engineering and Security architects to ensure the new content architecture accounts for varied organizational security protocols and environmental constraints.
+I am collaborating with Engineering and Security architects to ensure the new content architecture accounts for varied organizational security protocols and environmental constraints. 
+
+* **Live Implementation Artifact:** See my published guide for [Kerberos authentication for N-tier architectures](https://techdocs.broadcom.com/us/en/symantec-security-software/information-security/data-loss-prevention/25-1/install-dlp/configuring-certificates-for-secure-server-communications/using-kerberos-enforce-server-and-the-database/enable-kerberos-authentication-new-installations.html). This reduced installation support overhead by providing precise TGT configuration syntax for multi-server, zero-trust database environments.
 
 ## Anticipated impact: Faster adoption and fewer tickets
 By modernizing the installation corpus, we aim to achieve:

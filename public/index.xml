@@ -1,17 +1,53 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Joe McDermott</title>
+    <title>About Me on Joe McDermott</title>
     <link>http://localhost:1313/portfolio/</link>
-    <description>Recent content on Joe McDermott</description>
+    <description>Recent content in About Me on Joe McDermott</description>
     <generator>Hugo -- 0.155.3</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 01 May 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 16 Sep 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>342 topics to 58: what AI-assisted IA restructuring actually took</title>
+      <link>http://localhost:1313/portfolio/posts/342-topics-to-58-ia-restructuring/</link>
+      <pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/posts/342-topics-to-58-ia-restructuring/</guid>
+      <description>A real-world case study on using AI to condense 342 legacy documentation topics down to 58 Head Topics while cutting page count by 83%.</description>
+    </item>
+    <item>
+      <title>Configuring Kerberos Authentication for N-Tier Architectures</title>
+      <link>http://localhost:1313/portfolio/portfolio/kerberos-authentication/</link>
+      <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/portfolio/kerberos-authentication/</guid>
+      <description>A streamlined deployment reference for securing communications between multi-tier enterprise servers and backend databases using password-free Kerberos tokens.</description>
+    </item>
+    <item>
+      <title>CyberArk Credential Vault Integration</title>
+      <link>http://localhost:1313/portfolio/portfolio/cyberark-integration/</link>
+      <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/portfolio/cyberark-integration/</guid>
+      <description>Architecting API-driven credential vaulting to automate zero-trust compliance for high-availability DLP Enforce Servers.</description>
+    </item>
+    <item>
+      <title>Automating Our API Documentation Pipeline</title>
+      <link>http://localhost:1313/portfolio/posts/ai-api-automation-repo/</link>
+      <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/posts/ai-api-automation-repo/</guid>
+      <description>&lt;h3 id=&#34;automating-our-api-documentation-pipeline&#34;&gt;Automating Our API Documentation Pipeline&lt;/h3&gt;
+&lt;p&gt;Every time a developer submitted a Git Pull Request (PR) containing API validation messages or Swagger documentation, it included roughly 70 to 100 strings. Reviewing these manually was a massive time sink, taking about an hour per PR. In the vast majority of cases, these strings required tedious style updates. In a smaller minority of cases, they required deep-dive edits to clarify feature details, correct terminology, or address bespoke issues that required pulling API code into a client to test the result.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Get ready for the machine reader: Prevent your documentation from losing the failing AI revolution</title>
+      <link>http://localhost:1313/portfolio/posts/prep-for-machine-readers/</link>
+      <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/posts/prep-for-machine-readers/</guid>
+      <description>A strategic shift from human-centric writing to a dual-audience standard: engineering content that is both readable for people and computable for machines.</description>
+    </item>
     <item>
       <title>The obvious cost of the AI &#39;belt-tightening&#39; delusion</title>
       <link>http://localhost:1313/portfolio/posts/ai-product-spiral/</link>
-      <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/portfolio/posts/ai-product-spiral/</guid>
       <description>A response to Mark Cardillo: Why cutting documentation teams in the age of AI creates a spiral of declining product value.</description>
     </item>
@@ -30,22 +66,11 @@
       <description>An architectural look at the Model Context Protocol (MCP) and why technical writers are the key to bridging the AI governance gap.</description>
     </item>
     <item>
-      <title>About</title>
-      <link>http://localhost:1313/portfolio/about/</link>
+      <title>Platform Support and System Requirements Automation</title>
+      <link>http://localhost:1313/portfolio/portfolio/platform-support-automation/</link>
       <pubDate>Fri, 27 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/portfolio/about/</guid>
-      <description>&lt;p&gt;I bridge the gap between complex engineering design and user success. As a Senior Principal Information Developer, I focus on structured content, technical governance, and proactive leadership to build high-impact developer experiences.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;technical-agility-in-practice&#34;&gt;Technical agility in practice&lt;/h2&gt;
-&lt;p&gt;I thrive in the &amp;ldquo;chaos phase&amp;rdquo; of technology adoption. I master new stacks quickly to architect content strategies that scale.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;This portfolio is a meta-demonstration of that agility.&lt;/strong&gt; I engineered this site to prove the scalability of the docs-as-code model using:&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Platform support automation</title>
-      <link>http://localhost:1313/portfolio/projects/platform-support-automation/</link>
-      <pubDate>Fri, 27 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/portfolio/projects/platform-support-automation/</guid>
-      <description>How I engineered a single-source framework to reduce maintenance overhead and accelerate release cycles.</description>
+      <guid>http://localhost:1313/portfolio/portfolio/platform-support-automation/</guid>
+      <description>Engineering a single-source DITA framework to automate high-frequency platform support updates and system requirements.</description>
     </item>
     <item>
       <title>Refactoring installation journeys</title>
@@ -63,9 +88,9 @@
     </item>
     <item>
       <title>Jira backlog optimization and debt reduction</title>
-      <link>http://localhost:1313/portfolio/projects/jira-backlog/</link>
+      <link>http://localhost:1313/portfolio/portfolio/jira-backlog/</link>
       <pubDate>Thu, 26 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/portfolio/projects/jira-backlog/</guid>
+      <guid>http://localhost:1313/portfolio/portfolio/jira-backlog/</guid>
       <description>Architecting a triage framework and automation logic to resolve documentation debt across multi-release product lines.</description>
     </item>
     <item>
@@ -77,9 +102,9 @@
     </item>
     <item>
       <title>API modernization and developer delight</title>
-      <link>http://localhost:1313/portfolio/projects/api-transition/</link>
+      <link>http://localhost:1313/portfolio/portfolio/api-transition/</link>
       <pubDate>Tue, 17 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/portfolio/projects/api-transition/</guid>
+      <guid>http://localhost:1313/portfolio/portfolio/api-transition/</guid>
       <description>Leading the architectural shift from SOAP to REST/OpenAPI through custom infrastructure and CMS decoupling.</description>
     </item>
     <item>
@@ -91,9 +116,9 @@
     </item>
     <item>
       <title>The DLP dictionary: Standardizing enterprise terminology</title>
-      <link>http://localhost:1313/portfolio/projects/dlp-dictionary/</link>
+      <link>http://localhost:1313/portfolio/portfolio/dlp-dictionary/</link>
       <pubDate>Tue, 17 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/portfolio/projects/dlp-dictionary/</guid>
+      <guid>http://localhost:1313/portfolio/portfolio/dlp-dictionary/</guid>
       <description>Creating a unified technical taxonomy to align engineering, sales, and executive stakeholders.</description>
     </item>
     <item>
@@ -104,45 +129,11 @@
       <description>&lt;p&gt;Hello world!&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Automating open source attribution</title>
-      <link>http://localhost:1313/portfolio/projects/attribution-automation/</link>
+      <title>Automating Open Source Attribution Compliance</title>
+      <link>http://localhost:1313/portfolio/portfolio/attribution-automation/</link>
       <pubDate>Wed, 03 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/portfolio/projects/attribution-automation/</guid>
-      <description>Engineering a Python-based utility to streamline BlackDuck license merging and compliance formatting.</description>
-    </item>
-    <item>
-      <title>Resume</title>
-      <link>http://localhost:1313/portfolio/resume/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/portfolio/resume/</guid>
-      <description>&lt;h1 id=&#34;joe-mcdermott&#34;&gt;Joe McDermott&lt;/h1&gt;
-&lt;p&gt;&lt;strong&gt;Senior Principal Information Developer | Berkeley, CA | &lt;a href=&#34;https://linkedin.com/in/joe-b-mcdermott&#34;
-   
-    
-      target=&#34;_blank&#34; rel=&#34;noopener&#34; 
-   &gt;
-   LinkedIn
-&lt;/a&gt;&lt;/strong&gt; | &lt;strong&gt;&lt;a href=&#34;mailto:mcd.joe@icloud.com&#34;
-   
-   &gt;
-   Email
-&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;h2 id=&#34;executive-summary&#34;&gt;Executive Summary&lt;/h2&gt;
-&lt;p&gt;Technical leader with 15+ years of experience managing documentation lifecycles for enterprise security and developer platforms. Expert in orchestrating Docs-as-Code workflows, REST API modernization, and AI-augmented content operations.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;professional-experience&#34;&gt;Professional Experience&lt;/h2&gt;
-&lt;h3 id=&#34;symantec-division-of-broadcom&#34;&gt;Symantec (Division of Broadcom)&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Senior Principal Information Developer, Lead&lt;/strong&gt; | 2012 – Present&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Leadership &amp;amp; Strategy&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Documentation Governance:&lt;/strong&gt; Direct the content strategy for Enterprise Data Loss Prevention (DLP) across 10+ product areas, aligning technical specifications for Architects, PGM, and CISOs.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;AI Operations:&lt;/strong&gt; Engineered a pipeline using ChatGPT, Claude, and Gemini for content auditing and QA automation, reducing cycle times by &lt;strong&gt;30%&lt;/strong&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;API Modernization:&lt;/strong&gt; Led the legacy-to-REST transition via OpenAPI standards, increasing developer onboarding efficiency by &lt;strong&gt;50%&lt;/strong&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Systems Architecture:&lt;/strong&gt; Spearheaded global single-sourcing strategies using DITA (XML) to ensure feature parity across On-Premises and Cloud portfolios.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Mentorship:&lt;/strong&gt; Lead Agile sprints for cross-functional writing teams and consult on global CMS migrations (AEM/Vasont).&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;corptax-inc&#34;&gt;Corptax Inc.&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Senior Technical Writer&lt;/strong&gt; | 2006 – 2012&lt;/p&gt;</description>
+      <guid>http://localhost:1313/portfolio/portfolio/attribution-automation/</guid>
+      <description>Engineering a Python-based utility to streamline BlackDuck license merging, de-duplication, and compliance formatting.</description>
     </item>
   </channel>
 </rss>

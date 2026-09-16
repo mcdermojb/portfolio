@@ -10,7 +10,7 @@
 <meta name="description" content="Posts - Joe McDermott">
 <meta name="author" content="">
 <link rel="canonical" href="http://localhost:1313/portfolio/posts/">
-<link crossorigin="anonymous" href="http://localhost:1313/portfolio/assets/css/stylesheet.da3211e5ef867bf2b75fd5a6515cfed7195c011e8ab735694e203810a827097b.css" integrity="sha256-2jIR5e&#43;Ge/K3X9WmUVz&#43;1xlcAR6KtzVpTiA4EKgnCXs=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/portfolio/assets/css/stylesheet.f0ae87e3e3119276d6878982766a29330e61eeaf5026b44dad9e58cce429c7e5.css" integrity="sha256-8K6H4&#43;MRknbWh4mCdmopMw5h7q9QJrRNrZ5YzOQpx&#43;U=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/portfolio/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/portfolio/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/portfolio/favicon-32x32.png">
@@ -99,11 +99,11 @@
 </head>
 <body class="list" id="top">
     <header class="header">
-    <nav class="nav">
+    <nav class="side-nav">
         <div class="logo">
-            <a href="http://localhost:1313/portfolio/" accesskey="h" title="Joe McDermott (Alt + H)">Joe McDermott</a>
+            <a href="/portfolio/" accesskey="h" title="Joe McDermott (Alt + H)">Joe McDermott</a>
             <div class="logo-switches">
-                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                         stroke-linejoin="round">
@@ -127,39 +127,80 @@
         </div>
         <ul id="menu">
             <li>
-                <a href="http://localhost:1313/portfolio/about/" title="About">
+                <a href="/portfolio/" title="About">
                     <span>About</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/portfolio/case-studies/" title="Case Studies">
+                <a href="/portfolio/portfolio/" title="Portfolio">
+                    <span>Portfolio</span>
+                </a>
+            </li>
+            <li>
+                <a href="/portfolio/resume/" title="Resume">
+                    <span>Resume</span>
+                </a>
+            </li>
+            <li>
+                <a href="/portfolio/case-studies/" title="Case Studies">
                     <span>Case Studies</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/portfolio/samples/" title="Samples">
-                    <span>Samples</span>
-                </a>
-            </li>
-            <li>
-                <a href="http://localhost:1313/portfolio/projects/" title="Projects">
-                    <span>Projects</span>
-                </a>
-            </li>
-            <li>
-                <a href="http://localhost:1313/portfolio/posts/" title="Posts">
-                    <span class="active">Posts</span>
+                <a href="/portfolio/posts/" title="Posts" class="active">
+                    <span>Posts</span>
                 </a>
             </li>
         </ul>
     </nav>
-</header>
-<main class="main"> 
-<header class="page-header">
+</header><main class="main"> 
+<header class="page-header"><div class="breadcrumbs"><a href="http://localhost:1313/portfolio/">Home</a></div>
   <h1>
     Posts
   </h1>
 </header>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">342 topics to 58: what AI-assisted IA restructuring actually took
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>342 topics to 58: what AI-assisted IA restructuring actually took I just ran a real project through an AI-assisted documentation restructuring, and I want to record what happened while it’s still fresh — the good, the rough edges, and the stuff I’m still going to have to fix by hand.
+The docs in question are install/upgrade/DB documentation: an Install guide, an Upgrade guide, and an Oracle 19c database guide. All three started life as separate PDFs — a system requirements guide, a database implementation guide, an installation guide — each written to be read start to finish. They’re not PDFs anymore. They’re part of one HTML help system, and nobody reads a help system start to finish. They search it, or they Google it, looking for one specific task. The old segmentation — one short topic per micro-step, spread across hundreds of pages — actively works against that. Completing something as simple as “install a detection server” meant stitching together content from five to seventeen separate topics.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2026-09-16 00:00:00 +0000 UTC'>September 16, 2026</span></footer>
+  <a class="entry-link" aria-label="post link to 342 topics to 58: what AI-assisted IA restructuring actually took" href="http://localhost:1313/portfolio/posts/342-topics-to-58-ia-restructuring/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Automating Our API Documentation Pipeline
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Automating Our API Documentation Pipeline Every time a developer submitted a Git Pull Request (PR) containing API validation messages or Swagger documentation, it included roughly 70 to 100 strings. Reviewing these manually was a massive time sink, taking about an hour per PR. In the vast majority of cases, these strings required tedious style updates. In a smaller minority of cases, they required deep-dive edits to clarify feature details, correct terminology, or address bespoke issues that required pulling API code into a client to test the result.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2026-06-10 00:00:00 +0000 UTC'>June 10, 2026</span></footer>
+  <a class="entry-link" aria-label="post link to Automating Our API Documentation Pipeline" href="http://localhost:1313/portfolio/posts/ai-api-automation-repo/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Get ready for the machine reader: Prevent your documentation from losing the failing AI revolution
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>For decades, we have engineered technical documentation for a single, predictable audience: the human user. We optimized for visual flow, intuitive navigation, and readability, taking comfort in the fact that a human brain would use logic and experience to take it from there.
+Today, that paradigm is taking a last gasp. Now AI agents have become the primary gatekeeper of your information.
+This new reader does not browse; it ingests. It doesn’t infer context from a slick layout; it parses strings of data. When we provide documentation that is not structured for Large Language Models (LLMs) and retrieval systems, our mission-critical information remains effectively invisible to AI.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2026-05-12 00:00:00 +0000 UTC'>May 12, 2026</span></footer>
+  <a class="entry-link" aria-label="post link to Get ready for the machine reader: Prevent your documentation from losing the failing AI revolution" href="http://localhost:1313/portfolio/posts/prep-for-machine-readers/"></a>
+</article>
 
 <article class="post-entry"> 
   <header class="entry-header">
@@ -170,13 +211,19 @@
     <p>I recently came across a post by Mark Cardillo that struck a chord, particularly his observation that documentation is often the first head on the chopping block when corporate budgets face the “belt-tightening” phase. It is an extremely timely issue. As AI dominates the conversation, I see more and more budgets being slashed under the guise of automation. But there is a fundamental misunderstanding at play here: we are told AI will automate rote tasks, yet the cuts are hitting the knowledge workers—the very people who manage the nuances AI cannot grasp.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2026-05-01 00:00:00 +0000 UTC'>May 1, 2026</span></footer>
+  <footer class="entry-footer"><span title='2026-04-30 00:00:00 +0000 UTC'>April 30, 2026</span></footer>
   <a class="entry-link" aria-label="post link to The obvious cost of the AI &#39;belt-tightening&#39; delusion" href="http://localhost:1313/portfolio/posts/ai-product-spiral/"></a>
 </article>
 
 <article class="post-entry"> 
   <header class="entry-header">
     <h2 class="entry-hint-parent">The &#39;Ghost in the DOM&#39;: Why AI is the technical writer’s new best friend
+      <span class="entry-hint" title="Draft">
+        <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" fill="currentColor">
+          <path
+            d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
+        </svg>
+      </span>
     </h2>
   </header>
   <div class="entry-content">

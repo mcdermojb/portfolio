@@ -6,8 +6,22 @@
     <description>Recent content in Information Architecture on Joe McDermott</description>
     <generator>Hugo -- 0.155.3</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 26 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 16 Sep 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/portfolio/tags/information-architecture/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>342 topics to 58: what AI-assisted IA restructuring actually took</title>
+      <link>http://localhost:1313/portfolio/posts/342-topics-to-58-ia-restructuring/</link>
+      <pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/posts/342-topics-to-58-ia-restructuring/</guid>
+      <description>A real-world case study on using AI to condense 342 legacy documentation topics down to 58 Head Topics while cutting page count by 83%.</description>
+    </item>
+    <item>
+      <title>Get ready for the machine reader: Prevent your documentation from losing the failing AI revolution</title>
+      <link>http://localhost:1313/portfolio/posts/prep-for-machine-readers/</link>
+      <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/posts/prep-for-machine-readers/</guid>
+      <description>A strategic shift from human-centric writing to a dual-audience standard: engineering content that is both readable for people and computable for machines.</description>
+    </item>
     <item>
       <title>From Vending Machines to Interrogation: Drafting a Recursive Learning Framework</title>
       <link>http://localhost:1313/portfolio/posts/ontology-and-ai/</link>

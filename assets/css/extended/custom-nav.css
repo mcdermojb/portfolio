@@ -1,0 +1,76 @@
+@media screen and (min-width: 768px) {
+    /* Main layout engine */
+    body {
+        display: flex !important;
+        flex-direction: row !important;
+        min-height: 100vh;
+        margin: 0;
+    }
+
+    /* Fixed left-side panel box container */
+    .header {
+        position: fixed !important;
+        top: 0 !important;
+        left: 0 !important;
+        width: 240px !important;
+        height: 100vh !important;
+        border-right: 1px solid var(--border);
+        background: var(--theme);
+        padding: 2.5rem 1.5rem !important;
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: flex-start !important;
+        z-index: 100;
+    }
+
+    /* Turn the default horizontal nav wrapper into a vertical block stack */
+    .nav {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: flex-start !important;
+        justify-content: flex-start !important;
+        width: 100% !important;
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+
+    /* Target the list container directly */
+    ul#menu {
+        display: block !important;
+        width: 100% !important;
+        margin: 1.5rem 0 0 0 !important; /* Spacing below the sun icon */
+        padding: 0 !important;
+        list-style: none !important;
+    }
+
+    /* FORCE list items to stack and completely strip horizontal spacing */
+    ul#menu li, .nav li {
+        display: block !important;
+        margin: 0 0 0.6rem 0 !important; /* Sets a tight, clean vertical gap */
+        padding: 0 !important;
+        width: 100% !important;
+        clear: both !important;
+    }
+
+    /* Force links to sit perfectly flush left */
+    ul#menu a, .nav a {
+        display: inline-block !important;
+        padding: 0.2rem 0 !important; /* Minimal target cushion */
+        margin: 0 !important;
+        font-size: 1.05rem !important;
+        text-align: left !important;
+    }
+
+    /* Shift central page text window clear of the navigation panel */
+    .main {
+        margin-left: 260px !important;
+        max-width: calc(100% - 300px) !important;
+        padding: 2.5rem !important;
+        flex-grow: 1;
+    }
+
+    .footer {
+        margin-left: 260px !important;
+        padding: 1.5rem 2.5rem !important;
+    }
+}

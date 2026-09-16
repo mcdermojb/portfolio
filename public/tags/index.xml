@@ -6,26 +6,75 @@
     <description>Recent content in Tags on Joe McDermott</description>
     <generator>Hugo -- 0.155.3</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 01 May 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 16 Sep 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/portfolio/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI</title>
+      <link>http://localhost:1313/portfolio/tags/ai/</link>
+      <pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/tags/ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>DITA</title>
+      <link>http://localhost:1313/portfolio/tags/dita/</link>
+      <pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/tags/dita/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Docs-as-Code</title>
+      <link>http://localhost:1313/portfolio/tags/docs-as-code/</link>
+      <pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/tags/docs-as-code/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Information Architecture</title>
+      <link>http://localhost:1313/portfolio/tags/information-architecture/</link>
+      <pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/tags/information-architecture/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>LLM</title>
+      <link>http://localhost:1313/portfolio/tags/llm/</link>
+      <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/tags/llm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ontology</title>
+      <link>http://localhost:1313/portfolio/tags/ontology/</link>
+      <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/tags/ontology/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>RAG</title>
+      <link>http://localhost:1313/portfolio/tags/rag/</link>
+      <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/tags/rag/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Leadership</title>
       <link>http://localhost:1313/portfolio/tags/leadership/</link>
-      <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/portfolio/tags/leadership/</guid>
       <description></description>
     </item>
     <item>
       <title>Product Experience</title>
       <link>http://localhost:1313/portfolio/tags/product-experience/</link>
-      <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/portfolio/tags/product-experience/</guid>
       <description></description>
     </item>
     <item>
       <title>Technical Writing</title>
       <link>http://localhost:1313/portfolio/tags/technical-writing/</link>
-      <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/portfolio/tags/technical-writing/</guid>
       <description></description>
     </item>
@@ -76,27 +125,6 @@
       <link>http://localhost:1313/portfolio/tags/security/</link>
       <pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/portfolio/tags/security/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>AI</title>
-      <link>http://localhost:1313/portfolio/tags/ai/</link>
-      <pubDate>Thu, 26 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/portfolio/tags/ai/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Docs-as-Code</title>
-      <link>http://localhost:1313/portfolio/tags/docs-as-code/</link>
-      <pubDate>Thu, 26 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/portfolio/tags/docs-as-code/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Information Architecture</title>
-      <link>http://localhost:1313/portfolio/tags/information-architecture/</link>
-      <pubDate>Thu, 26 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/portfolio/tags/information-architecture/</guid>
       <description></description>
     </item>
     <item>
