@@ -9,25 +9,25 @@
     <lastBuildDate>Wed, 16 Sep 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/portfolio/tags/information-architecture/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>342 topics to 58: what AI-assisted IA restructuring actually took</title>
+      <title>342 Topics to 58: What AI-Assisted IA Restructuring Took</title>
       <link>http://localhost:1313/portfolio/posts/342-topics-to-58-ia-restructuring/</link>
       <pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/portfolio/posts/342-topics-to-58-ia-restructuring/</guid>
-      <description>A real-world case study on using AI to condense 342 legacy documentation topics down to 58 Head Topics while cutting page count by 83%.</description>
+      <description>A real-world case study on using AI to condense 342 legacy technical documentation topics down to 58 Head Topics while cutting page count by 83%.</description>
     </item>
     <item>
-      <title>Get ready for the machine reader: Prevent your documentation from losing the failing AI revolution</title>
+      <title>Get Ready for the Machine Reader: Designing Documentation for AI Agents</title>
       <link>http://localhost:1313/portfolio/posts/prep-for-machine-readers/</link>
       <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/portfolio/posts/prep-for-machine-readers/</guid>
-      <description>A strategic shift from human-centric writing to a dual-audience standard: engineering content that is both readable for people and computable for machines.</description>
+      <description>A strategic shift to a dual-audience standard: engineering technical content that remains readable for humans while becoming computable for LLMs and RAG systems.</description>
     </item>
     <item>
-      <title>From Vending Machines to Interrogation: Drafting a Recursive Learning Framework</title>
+      <title>From Vending Machines to Interrogation: A Recursive Learning Framework</title>
       <link>http://localhost:1313/portfolio/posts/ontology-and-ai/</link>
       <pubDate>Thu, 26 Feb 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/portfolio/posts/ontology-and-ai/</guid>
-      <description>Ruminations on transitioning from &amp;#39;one-shot&amp;#39; prompting to a recursive, interrogative methodology in technical communication.</description>
+      <description>Why moving from one-shot prompting to a recursive, interrogative AI workflow transforms technical communicators from content generators into information auditors.</description>
     </item>
   </channel>
 </rss>

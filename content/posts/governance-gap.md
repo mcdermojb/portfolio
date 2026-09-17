@@ -1,46 +1,52 @@
 ---
-title: "The governance gap: Why your AI shouldn’t have your API keys (yet)"
+title: "The Governance Gap: Why Your AI Shouldn’t Have Your API Keys (Yet)"
 date: 2026-04-22
-description: "An architectural look at the Model Context Protocol (MCP) and why technical writers are the key to bridging the AI governance gap."
+description: "An architectural look at the Model Context Protocol (MCP) and why technical writers are essential to bridging the AI governance gap."
 categories: ["AI Governance", "Content Engineering"]
 tags: ["MCP", "API Design", "Security", "AI Readiness"]
 draft: false
 ---
 
-I was recently digging through a GitHub repository shared by a friend—a project dealing with **MCP (Model Context Protocol)** server capabilities and governance. 
+I recently analyzed a GitHub repository focused on Model Context Protocol (MCP) server capabilities and repository governance. The codebase served as a sandbox for evaluating what happens when AI agents, APIs, and technical documentation intersect. 
 
-Out of the kindness of his heart (and fueled by our long-winded debates on the topic), he put together a sandbox to help me visualize what happens when you string together AI, APIs, and documentation. What I found was a sobering look at the "Governance Gap"—and a clear signal that the role of the Technical Writer is about to become more architecturally significant than ever before.
+Examining these interactions revealed a sobering architectural reality: the "Governance Gap." It also signaled that technical writers are positioned to play a crucial role in defining AI safety and governance architectures.
 
-## What does "behavior at the edges" actually mean?
-In my notes on the repo, I kept coming back to a phrase: *behavior at the edges.* If you’ve spent your career documenting REST APIs for enterprise security, you know exactly what this feels like. 
+## What "Behavior at the Edges" Means
 
-Traditional APIs are deterministic. They follow the "If X, then Y" logic. But when an AI agent interacts with an API "at the edge," it is interpreting intent. The problem is that **APIs weren't inherently designed for AI agents.** There is no native governance layer. Once an AI agent creates a client to perform a task steered by a human, there is often zero human review of the actual API calls being made. The AI is essentially "hallucinating" a path through your endpoints.
+If you have documented enterprise REST APIs, you understand edge behavior. Traditional REST APIs are deterministic, operating on predictable input-output logic. However, when an AI agent interacts with an API, it interprets intent rather than executing hardcoded instructions.
 
-## The MCP server: Bridge or highway?
-This is where the **Model Context Protocol (MCP)** comes into play. Most people see MCP as a way to expose capabilities—allowing an agent to pull audit logs, check management settings, or import policies.
+Because standard REST APIs were not designed for autonomous AI agents, they lack native governance layers. Once an agent creates a client to perform a user-directed task, intermediate API calls often execute without human review. The AI effectively navigates endpoints dynamically, creating unpredictable paths across system infrastructure.
 
-But is an MCP server inherently "safe"? Nowadays, the common thinking is that they are inherently insecure. If we don't design the server to dictate the actions an AI can take—controlling the inputs to control the outputs—what is the actual benefit to the user? API users don't want to pour over parameters; they want to achieve a business use case. If the "bridge" we build doesn't have a toll booth and a guard rail, it’s just a highway for potential "edge case" disasters.
+## The MCP Server: Bridge or Highway?
 
-## The scoring framework: Why "read-only" isn't enough
-My friend’s repo introduces an "AI Readiness Scoring" framework that changed how I look at my own documentation. It scores capabilities across five dimensions: **Security Risk, Data Sensitivity, Operational Impact, Predictability, and Reversibility.**
+The **Model Context Protocol (MCP)** standardizes capability exposure—allowing AI agents to retrieve audit logs, inspect configuration settings, or ingest security policies.
 
-I used to think that if an operation was "Read-Only," it was Tier 1 (Safe). But consider a "Generate Compliance Report" capability. 
-* It’s technically a `GET` or a `POST` that doesn't change state. 
-* **However**, it’s computationally expensive (Operational Impact). 
-* It aggregates sensitive PII (Data Sensitivity). 
+However, exposing endpoints via MCP does not guarantee security. Without guardrails that restrict inputs and govern agent actions, exposing raw capabilities creates substantial enterprise risk. API consumers seek specific business outcomes, not parameter management. An ungoverned MCP server functions less like a secure bridge and more like an unmonitored highway for high-severity edge-case failures.
 
-An AI agent, left to its own devices, could "DDoS" a production server by repeatedly requesting massive reports, or inadvertently leak an entire organization's security posture. This is why many organizations deem unmanaged MCP a security risk. It’s about the lack of **Ontology.**
+## AI Readiness Scoring: Beyond "Read-Only"
 
-## From technical writer to capability architect
-The person who spent years explaining what an API does is now the most qualified person to decide what an AI is allowed to do with it.
+An effective governance framework evaluates capability risk across five key dimensions:
 
-We’ve been doing informal AI Readiness Scoring for a decade. Every time we write a "Warning" box or a "Danger" callout in a README, we are defining the governance of that endpoint. In an AI-first world, that knowledge moves from the "Manual" into the "Metadata." We are designing **Capability Abstractions.**
+* **Security Risk:** The level of system access and administrative privilege required to invoke the capability.
+* **Data Sensitivity:** The exposure level of confidential records, customer PII, or internal system configurations.
+* **Operational Impact:** The computational load and infrastructure cost generated by executing the operation.
+* **Predictability:** The degree to which response structures and downstream execution paths remain deterministic.
+* **Reversibility:** Whether the operation's state change can be safely rolled back if executed in error.
 
-## Closing the gap
-If your company has blocked MCP or autonomous agents from residing within your production repos, **they are right to do so.** We cannot automate the AI until we can govern the AI. Our goal shouldn't be to get straight to the results; it should be to build the governance layer that makes those results safe. 
+A common misconception is that "Read-Only" endpoints are inherently low-risk. Consider an endpoint designed to generate a comprehensive compliance report:
 
-The "Third Way" of AI integration isn't just better code. It’s better policy, structured through the lens of people who actually understand how APIs behave when pushed to the edge.
+* **Low Execution Risk:** It uses standard `GET` or `POST` methods without altering system state.
+* **High Operational Impact:** It executes expensive database queries that consume significant compute resources.
+* **High Data Sensitivity:** It aggregates and exposes sensitive organizational data.
 
-***
+Left unmanaged, an autonomous AI agent could trigger recursive report generation—effectively launching a denial-of-service attack against production databases or leaking security posture details. Without structured semantic ontology, read-only capabilities pose real operational threats.
 
-*What are you doing to score your APIs for AI readiness? Are you still documenting for humans, or are you starting to design for agents? Let’s discuss.*
+## From Technical Writer to Capability Architect
+
+Technical communicators who spent years documenting API behavior are uniquely equipped to define AI governance boundaries.
+
+Writing documentation callouts—such as "Warning" and "Danger" blocks—is essentially manual governance definition. In agentic workflows, this domain knowledge moves from static documentation into machine-readable metadata. Technical writers are transitioning from drafting user manuals to architecting capability abstractions and policy constraints.
+
+## Closing the Governance Gap
+
+If your organization has paused ungoverned MCP deployment in production environments, that hesitation is justified. Organizations cannot safely deploy autonomous AI without robust governance controls. The objective is not merely accelerating AI integration, but building the policy framework that ensures agentic executions remain safe, predictable, and compliant.

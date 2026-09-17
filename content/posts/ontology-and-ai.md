@@ -1,53 +1,47 @@
 ---
-title: "From Vending Machines to Interrogation: Drafting a Recursive Learning Framework"
+title: "From Vending Machines to Interrogation: A Recursive Learning Framework"
 date: 2026-02-26
-description: "Ruminations on transitioning from 'one-shot' prompting to a recursive, interrogative methodology in technical communication."
-tags: ["AI", "Information Architecture", "Docs-as-Code", "Ruminations"]
+description: "Why moving from one-shot prompting to a recursive, interrogative AI workflow transforms technical communicators from content generators into information auditors."
+tags: ["AI", "Information Architecture", "Docs-as-Code", "Technical Writing"]
+draft: false
 ---
 
-I’m spending a lot of time lately thinking about the "vending machine" problem in AI. Most people treat LLMs like a snack machine: you put in a prompt, you get a result, and you walk away. But for technical communication—especially when we’re dealing with high-stakes architectural documentation—that "one-shot" model is increasingly insufficient.
+Most teams treat Large Language Models (LLMs) like vending machines: insert a prompt, receive an output, and walk away. In complex technical communication—where architectural documentation carries high stakes—this one-shot approach is fundamentally insufficient.
 
-I’m currently exploring a more recursive, interrogative framework. Here is how I'm mapping the traditional Technical Communication lifecycle to this new AI-augmented reality.
+Moving beyond simple prompt engineering requires a recursive, interrogative framework that treats AI as a dynamic assistant requiring continuous cross-examination.
 
-## 1. The Paradigm Shift: Interrogation over Prompting
+## The Paradigm Shift: Interrogation Over Prompting
 
-I'm moving away from "Prompt Engineering" entirely. It implies there is a "perfect" sequence of words that unlocks the answer. Instead, I’ve been treating the AI as a dynamic, slightly unreliable agent that needs to be cross-examined.
+Prompt engineering assumes a perfect sequence of words exists to unlock an accurate answer. In practice, treating AI as a dynamic, slightly unreliable agent yields far better results. The objective is not merely generating an initial draft, but investigating the model's underlying logic until the technical output is fully validated.
 
-The goal isn't just to get the output; it's to investigate the model’s logic until I’m certain the technical understanding is sound.
+* **Static Model:** Input → Final Output
+* **Interrogative Model:** Input → Analysis → Iterative Questioning → Validated Output
 
-* **The Static Model:** $Input \rightarrow Final Output$
-* **The Interrogative Model:** $Input \rightarrow Analysis \rightarrow Iterative Questioning \rightarrow Validated Output$
+## Mapping the Technical Communication Lifecycle
 
-## 2. Mapping the Tech Comm Lifecycle
-
-I’m currently ruminating on how the interrogative approach changes our standard milestones. It’s not about replacing these steps, but about using AI to "pressure-test" them at every turn.
+An interrogative approach does not replace standard documentation milestones; it pressure-tests them at every stage of the Documentation Development Life Cycle (DDLC).
 
 | Phase | Traditional Workflow | Interrogative AI Workflow |
-| :--- | :--- | :--- |
-| **Scoping** | Manual gap analysis of existing docs vs. new features. | **Gap Interrogation:** I feed the AI the new PRD and the current Table of Contents. I ask it to find "the information vacuum"—the logical gaps where a user will get stuck between versions. |
-| **Assessing Specs** | Interviewing SMEs and reading "messy" engineering Jira tickets. | **Entity Extraction:** Using AI to "de-noise" engineering brain-dumps. I ask: *"Based on this raw Jira thread, what are the mandatory parameters vs. the optional edge cases?"* |
-| **Drafting Content** | Blank-page drafting based on notes. | **Architectural Drafting:** I don't ask it to "write." I ask it to "structure." I provide the logic and ask it to suggest the most efficient Markdown/DITA hierarchy for the task. |
-| **Technical Review** | Sending a draft to an SME and waiting for feedback. | **Pre-SME Auditing:** I have the AI play the "Skeptic." I tell it: *"Act as a Senior Architect. Find three things in this draft that are technically ambiguous or likely to cause a support ticket."* |
-| **Production Pipelines** | Manual formatting, YAML checks, and Git pushes. | **Linter Augmentation:** Using AI scripts to validate front-matter consistency and broken link checks within the Docs-as-Code (Hugo/Git) pipeline. |
+|---|---|---|
+| **Scoping** | Manual gap analysis comparing existing documentation against new product features. | **Gap Interrogation:** Feed the AI product requirements documents (PRDs) and current site navigation to locate logical information vacuums between release versions. |
+| **Spec Assessment** | Interviewing Subject Matter Experts (SMEs) and reviewing raw engineering tickets. | **Entity Extraction:** De-noise raw engineering threads by prompting the AI to isolate mandatory parameters from optional edge cases. |
+| **Drafting** | Blank-page authoring based on preliminary notes. | **Architectural Drafting:** Use AI to suggest optimal Markdown/DITA heading hierarchies and structural logic rather than raw prose generation. |
+| **Technical Review** | Sending draft topics to SMEs and waiting for async feedback. | **Pre-SME Auditing:** Prompt the AI to act as a skeptic/senior architect to identify ambiguous statements or potential support triggers before human review. |
+| **Production Pipelines** | Manual frontmatter checks, broken link verification, and Git operations. | **Linter Augmentation:** Integrate AI validation scripts into Docs-as-Code (Hugo/Git) CI/CD pipelines to enforce metadata consistency. |
 
-## 3. Using AI as a Learning Interface
+## Using AI as a Learning Interface
 
-What if we used AI not to *write* the docs, but to *interrogate* the codebase? I’m playing with "Logic Auditing" to see how it accelerates the "Zero-to-One" learning phase. 
+Instead of using AI solely to write documentation, technical writers can use it to interrogate complex codebases, accelerating the zero-to-one learning phase.
 
-When a model generates a CLI example or an API call, I require it to explain the specific decision-making process or design patterns used. If it can't justify the architecture, the solution is discarded. We have to treat the AI as a junior engineer whose work must be defended before it is merged.
+When an LLM generates a CLI command or API workflow, require it to justify its underlying design patterns and architectural decisions. If the model cannot defend its rationale, discard the output. Treating AI-generated content like a junior engineer's pull request ensures that code and documentation are thoroughly vetted before merging.
 
-## 4. Navigating Tool Volatility (The "Agnostic" Stance)
+## Navigating Tool Volatility
 
-The ecosystem is moving so fast that "tool mastery" is a trap. I’m leaning toward a **Tool-Agnostic** stance. If your workflow depends on one specific version of one specific agent, your process has a single point of failure.
+Relying on a single AI platform introduces operational risk. A resilient workflow remains tool-agnostic:
 
-I’m currently evaluating tools based on **Output Decay**. I’ve noticed that as models update, they often "drift" or lose their edge in specific technical niches. My current rule of thumb: If the performance degrades, pivot immediately. Maintain redundancy. Always have a "Plan B" general-purpose LLM in the wings.
+* **Framework Redundancy:** Workflows must depend on core information architecture principles rather than vendor-specific prompt syntax or platform features.
+* **Monitoring Output Decay:** LLMs experience performance drift as model weights and system prompts update. If an agent's output quality degrades in a technical niche, pivot to a secondary general-purpose LLM immediately.
 
----
+## Conclusion: Process Over Prompt
 
-### Closing Thoughts (For Now)
-
-We need to prioritize **Process over Prompt**. Mastering a specific syntax is ephemeral; mastering the ability to *learn how to learn* from these tools is the real long-term value. 
-
-In this framework, the technical writer becomes less of a "content generator" and more of an **Information Auditor.** We are the bridge that ensures the AI’s output actually maps to reality.
-
-*This is a living document. As the models evolve, so will this framework.*
+Mastering platform-specific prompt syntax yields temporary gains; mastering recursive interrogation provides long-term value. In an AI-augmented workflow, technical writers transition from content generators to **information auditors**—serving as the essential verification layer between raw model output and technical reality.

@@ -1,61 +1,70 @@
 ---
-title: "Automating Our API Documentation Pipeline"
+title: "Automating Our API Documentation Review Pipeline"
 date: 2026-06-10
+description: "How we integrated a custom Gemini AI review skill into our GitHub CI/CD pipeline to eliminate manual API string reviews and reduce PR cycle times."
+tags: ["API Documentation", "AI", "Docs-as-Code", "Automation", "CI-CD"]
 draft: false
 ---
-### Automating Our API Documentation Pipeline
 
-Every time a developer submitted a Git Pull Request (PR) containing API validation messages or Swagger documentation, it included roughly 70 to 100 strings. Reviewing these manually was a massive time sink, taking about an hour per PR. In the vast majority of cases, these strings required tedious style updates. In a smaller minority of cases, they required deep-dive edits to clarify feature details, correct terminology, or address bespoke issues that required pulling API code into a client to test the result. 
+Every time a developer submitted a Git pull request (PR) containing API validation messages or Swagger documentation, it included roughly 70 to 100 strings. Reviewing these manually was a massive time sink, averaging about an hour per PR. In most cases, these strings required repetitive style updates. In a minority of cases, they demanded deep-dive edits—clarifying feature mechanics, fixing terminology, or pulling API code into a local client to verify behavior.
 
-Initially, I handled this entirely without AI. To reclaim my time, I built a custom Gemini Gem to automate the initial review. While the Gem saved hours of analytical work, it introduced a new mechanical bottleneck: I had to manually copy the strings from the Git PR, paste them into the Google Gemini chat window, review the output, and painstakingly transcribe the changes back into the PR. These multiple manual steps were inefficient and introduced the possibility of human error. 
+Initially, I handled this entirely by hand. To reclaim editorial bandwidth, I built a custom Gemini Gem to automate the initial pass. While the Gem saved analytical effort, it introduced a new mechanical bottleneck: copying strings from the PR, pasting them into Gemini, evaluating the output, and manually transcribing changes back into GitHub. 
 
-Concurrently, our development team was championing new AI automation initiatives. Recognizing the opportunity, I piggybacked on their momentum. I took the Gem I had created and partnered with the Dev team, who helped me integrate it directly into their skills automation pipeline. 
+Recognizing an opportunity when our engineering team began championing AI automation, I partnered with developers to integrate the Gem directly into their CI/CD skills pipeline.
 
-Here is a high-level overview of how we developed and implemented this automation:
+## Implementation roadmap
 
-1. **Auditing the Effort:** Identifying the manual review bottleneck and quantifying its time cost (an hour per 70-100 strings) to complete.
-2. **Building the Prototype:** Creating a custom Gemini Gem to evaluate strings against internal style guides.
-3. **Identifying the Friction:** Recognizing the copy/paste transcription bottleneck between the browser-based Gem and our Git PRs.
-4. **Automating the Pipeline:** Partnering with Dev to integrate the Gem directly into their automated skills pipeline, eliminating manual touchpoints.
-5. **Enforcing the Rules:** Establishing a robust style hierarchy to ensure the AI acts as an authoritative, consistent gatekeeper.
-6. **Refining the Output:** Building a continuous feedback loop to calibrate the AI against "gold standard" files.
+1. **Auditing the Effort:** Identified the manual review bottleneck and quantified its cost (1 hour per 70–100 strings).
+2. **Building the Prototype:** Created a custom Gemini Gem to evaluate raw strings against style guides.
+3. **Identifying Friction:** Pinpointed the copy-paste transcription loop between the browser interface and GitHub.
+4. **Automating the Pipeline:** Embedded the Gem into the team's automated skills pipeline to remove manual touchpoints.
+5. **Enforcing Standards:** Established a strict style hierarchy so the AI operates as a deterministic gatekeeper.
+6. **Refining Output:** Built a feedback loop using "gold standard" test files to calibrate string quality.
 
-Here is how we built a system that solves the the initial cycles and human error problem.
+## Overcoming the manual bottleneck
 
-**Identifying the Manual Bottleneck**
-Every pull request containing REST API validation messages and Swagger documentation properties required a manual review for clarity, tone, and grammar. Reviewers (that would be me) had to painstakingly check for proper capitalization, verb tense, and phrasing, which was repetitive and unscalable. I recognized the need to build an automated process so our team could stop relying on manual review steps and focus on higher impact work that benefited users.
+Reviewing REST API validation messages and OpenAPI/Swagger properties required verifying capitalization, verb tense, and phrasing. Reviewing these by hand was tedious and unscalable. Automating the initial pass freed editorial time to focus on high-impact documentation architecture and user experience.
 
-**Integrating AI Where It Actually Helps**
-We developed an AI-powered "Doc review skill" to serve as an "Expert API Technical Editor and Content Reviewer." Instead of throwing human bodies at the problem, we fed the AI our raw API properties files and instructed it to generate a comprehensive Swagger Documentation Review report. The AI systematically evaluates the input strings, identifies rules violated, and provides revised values directly within the pipeline. 
+### Integrating AI into the pipeline
 
-**Establishing a Ruthless Style Hierarchy**
-To prevent the AI from making subjective or conflicting decisions, we established a strict set of transformation rules and a clear style guide hierarchy.
-* **Primary Source:** The Microsoft Manual of Style (MMS) serves as the primary authority. This primary guide governs active voice, American English spelling, second-person pronouns, and jargon avoidance.
-* **Secondary Source:** The internal style guide serves as the secondary fallback. This secondary guide is used for specific capitalization rules, such as treating `.summary` strings as Title Case section headings.
+We built an AI-powered doc review skill designed to act as an automated technical editor. Rather than reviewing raw files manually, the pipeline feeds `.properties` and OpenAPI files into the skill. The AI evaluates input strings against defined guidelines, flags rule violations, and suggests corrected values directly within the PR workflow.
 
-The AI applies these rules systematically, automatically converting informal jargon like "One of:" to "Valid values are," and shifting passive constructions to active present tense.
+### Establishing a clear style hierarchy
 
-**Building a Continuous Feedback Loop**
-This wasn't a one-time project. We continuously tested the AI against different pull requests and refined our prompts based on the output to eliminate errors. When we realized the AI was struggling with Title Case versus sentence case for different property keys, we explicitly updated the prompt instructions to identify `.summary` strings as section titles. We also calibrated the AI against an `auditlogs.json` "gold standard" to ensure product consistency, successfully training it to enforce that all DTO field descriptions open with the definite article "The."
+To prevent subjective or conflicting edits, we established a strict style hierarchy:
 
-**Removing the Possibility for Human Error**
-By iterating on the prompt, strictly enforcing our style hierarchy, and integrating directly into the dev pipeline, the automated doc review skill now produces highly accurate string updates. When a developer submits an API pull request, the AI automatically performs the review before a human ever sees it. It catches missing relative pronouns, sentence fragments, and first-person pronouns immediately. I can then perform my review while focusing on how the new or updated API affects user's workflow.
+* **Primary Authority (Microsoft Manual of Style):** Governs active voice, American English spelling, second-person pronouns, and technical jargon avoidance.
+* **Secondary Authority (Internal Style Guide):** Governs domain-specific rules, such as formatting `.summary` key strings as Title Case section headings.
 
-***
+The AI applies these rules systematically—converting informal phrasing (e.g., changing "One of:" to "Valid values are:") and shifting passive constructions to active present tense.
 
-### Next Steps: Proving the Metrics and Scaling
+### Building a feedback loop
 
-Because this pipeline enhancement has not yet been stress-tested in a normal, high-volume development cycle, our next phase requires capturing hard metrics and formulating a cross-repository rollout plan. 
+Prompt engineering required continuous calibration against real PRs. When early test runs showed the AI struggling to distinguish Title Case headings from sentence-case property descriptions, we updated prompt rules to classify `.summary` strings as section titles. We also calibrated the skill against a gold-standard `auditlogs.json` file, ensuring Data Transfer Object (DTO) field descriptions consistently begin with the definite article "The."
 
-**How to Confirm Metrics and Velocity Improvements:**
-To quantify how this diminishes manual work, we can track the following data points during our initial pilot sprints:
-* **PR Cycle Time:** Measure the average time from PR creation to PR merge for API-related updates before the automation vs. after. 
-* **Review Time Saved:** Log the number of PRs containing API strings per sprint. Multiply that by the baseline (1 hour per PR) to report the exact number of manual engineering/editing hours saved per sprint.
-* **Comment Reduction:** Count the average number of documentation-related review comments on PRs. A successful automation should drive this number close to zero, proving that the AI is catching style issues before human review.
+### Eliminating human error
 
-**Process for Implementing Across All Dev Repos:**
-To scale this across the entire engineering organization, we should avoid a "big bang" release and instead focus on standardized integration:
-1. **Pilot Program:** Run the automation on the 1-2 most active repositories for a full release cycle to catch edge cases.
-2. **Standardize Configuration:** Create a standardized GitHub Action (or equivalent CI/CD step) that houses the skill. This allows any repo owner to simply drop a `.yml` configuration file into their repository to inherit the automation.
-3. **Path Mapping:** Ensure the script is built to dynamically locate `.properties` or `swagger.json` files, regardless of the specific repository's folder structure, to minimize custom setup for dev teams. 
-4. **Internal Evangelism:** Present the time-saved metrics from the pilot program at a centralized engineering all-hands to drive opt-in from other repository owners.
+Direct pipeline integration eliminates transcription errors. When a developer submits an API PR, the review skill runs automatically before human review. It catches missing relative pronouns, sentence fragments, and first-person references immediately, allowing technical writers to focus on how API updates impact overall user workflows.
+
+---
+
+## Next steps: Scaling and metrics
+
+Because this pipeline enhancement has not yet completed a high-volume release cycle, the next phase focuses on capturing performance metrics and executing a cross-repository rollout.
+
+### Tracking velocity improvements
+
+To quantify manual time saved, we are measuring three core metrics during pilot sprints:
+
+* **PR Cycle Time:** Average duration from PR creation to merge for API-related updates before vs. after automation.
+* **Review Hours Saved:** Total API PRs multiplied by the baseline review duration (1 hour per PR).
+* **Comment Reduction:** Volume of documentation-related PR comments (targeting near-zero to confirm style issues are resolved pre-commit).
+
+### Organization-wide rollout plan
+
+To deploy this automation across engineering repositories cleanly:
+
+1. **Pilot Program:** Run the skill on the 1–2 most active repositories for a full release cycle to identify edge cases.
+2. **Standardize Configuration:** Package the skill into a reusable GitHub Action so repository owners can enable it via a simple `.yml` workflow file.
+3. **Dynamic Path Mapping:** Ensure the script dynamically locates `.properties` and `swagger.json` files regardless of individual repository folder structures.
+4. **Internal Evangelism:** Present pilot metrics at engineering all-hands meetings to drive opt-in across teams.
