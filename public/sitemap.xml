@@ -35,7 +35,16 @@
     <loc>http://localhost:1313/portfolio/resume/</loc>
     <lastmod>2026-07-06T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/portfolio/tags/api-documentation/</loc>
+    <lastmod>2026-06-10T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/portfolio/posts/ai-api-automation-repo/</loc>
+    <lastmod>2026-06-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/portfolio/tags/automation/</loc>
+    <lastmod>2026-06-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/portfolio/tags/ci-cd/</loc>
     <lastmod>2026-06-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/portfolio/categories/ai-strategy/</loc>
@@ -123,9 +132,6 @@
     <lastmod>2026-02-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/portfolio/portfolio/jira-backlog/</loc>
-    <lastmod>2026-02-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/portfolio/tags/ruminations/</loc>
     <lastmod>2026-02-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/portfolio/case-studies/ai-workflow/</loc>

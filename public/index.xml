@@ -9,11 +9,11 @@
     <lastBuildDate>Wed, 16 Sep 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/portfolio/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>342 topics to 58: what AI-assisted IA restructuring actually took</title>
+      <title>342 Topics to 58: What AI-Assisted IA Restructuring Took</title>
       <link>http://localhost:1313/portfolio/posts/342-topics-to-58-ia-restructuring/</link>
       <pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/portfolio/posts/342-topics-to-58-ia-restructuring/</guid>
-      <description>A real-world case study on using AI to condense 342 legacy documentation topics down to 58 Head Topics while cutting page count by 83%.</description>
+      <description>A real-world case study on using AI to condense 342 legacy technical documentation topics down to 58 Head Topics while cutting page count by 83%.</description>
     </item>
     <item>
       <title>Configuring Kerberos Authentication for N-Tier Architectures</title>
@@ -30,40 +30,39 @@
       <description>Architecting API-driven credential vaulting to automate zero-trust compliance for high-availability DLP Enforce Servers.</description>
     </item>
     <item>
-      <title>Automating Our API Documentation Pipeline</title>
+      <title>Automating Our API Documentation Review Pipeline</title>
       <link>http://localhost:1313/portfolio/posts/ai-api-automation-repo/</link>
       <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/portfolio/posts/ai-api-automation-repo/</guid>
-      <description>&lt;h3 id=&#34;automating-our-api-documentation-pipeline&#34;&gt;Automating Our API Documentation Pipeline&lt;/h3&gt;
-&lt;p&gt;Every time a developer submitted a Git Pull Request (PR) containing API validation messages or Swagger documentation, it included roughly 70 to 100 strings. Reviewing these manually was a massive time sink, taking about an hour per PR. In the vast majority of cases, these strings required tedious style updates. In a smaller minority of cases, they required deep-dive edits to clarify feature details, correct terminology, or address bespoke issues that required pulling API code into a client to test the result.&lt;/p&gt;</description>
+      <description>How we integrated a custom Gemini AI review skill into our GitHub CI/CD pipeline to eliminate manual API string reviews and reduce PR cycle times.</description>
     </item>
     <item>
-      <title>Get ready for the machine reader: Prevent your documentation from losing the failing AI revolution</title>
+      <title>Get Ready for the Machine Reader: Designing Documentation for AI Agents</title>
       <link>http://localhost:1313/portfolio/posts/prep-for-machine-readers/</link>
       <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/portfolio/posts/prep-for-machine-readers/</guid>
-      <description>A strategic shift from human-centric writing to a dual-audience standard: engineering content that is both readable for people and computable for machines.</description>
+      <description>A strategic shift to a dual-audience standard: engineering technical content that remains readable for humans while becoming computable for LLMs and RAG systems.</description>
     </item>
     <item>
-      <title>The obvious cost of the AI &#39;belt-tightening&#39; delusion</title>
+      <title>The Obvious Cost of the AI &#39;Belt-Tightening&#39; Delusion</title>
       <link>http://localhost:1313/portfolio/posts/ai-product-spiral/</link>
       <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/portfolio/posts/ai-product-spiral/</guid>
-      <description>A response to Mark Cardillo: Why cutting documentation teams in the age of AI creates a spiral of declining product value.</description>
+      <description>Why cutting technical documentation teams in the age of AI triggers a compounding cycle of declining product quality and customer churn.</description>
     </item>
     <item>
-      <title>The &#39;Ghost in the DOM&#39;: Why AI is the technical writer’s new best friend</title>
+      <title>The &#39;Ghost in the DOM&#39;: Why AI Is the Technical Writer’s New Best Friend</title>
       <link>http://localhost:1313/portfolio/posts/ghost-in-the-dom/</link>
       <pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/portfolio/posts/ghost-in-the-dom/</guid>
-      <description>A strategic look at how integrated LLMs like Gemini are transforming technical documentation from rote drafting to structural auditing.</description>
+      <description>How integrated LLMs like Gemini transform technical writing from manual drafting into real-time structural auditing and accessibility testing.</description>
     </item>
     <item>
-      <title>The governance gap: Why your AI shouldn’t have your API keys (yet)</title>
+      <title>The Governance Gap: Why Your AI Shouldn’t Have Your API Keys (Yet)</title>
       <link>http://localhost:1313/portfolio/posts/governance-gap/</link>
       <pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/portfolio/posts/governance-gap/</guid>
-      <description>An architectural look at the Model Context Protocol (MCP) and why technical writers are the key to bridging the AI governance gap.</description>
+      <description>An architectural look at the Model Context Protocol (MCP) and why technical writers are essential to bridging the AI governance gap.</description>
     </item>
     <item>
       <title>Platform Support and System Requirements Automation</title>
@@ -80,11 +79,11 @@
       <description>How I am re-engineering legacy installation content through architectural mapping and DITA optimization.</description>
     </item>
     <item>
-      <title>From Vending Machines to Interrogation: Drafting a Recursive Learning Framework</title>
+      <title>From Vending Machines to Interrogation: A Recursive Learning Framework</title>
       <link>http://localhost:1313/portfolio/posts/ontology-and-ai/</link>
       <pubDate>Thu, 26 Feb 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/portfolio/posts/ontology-and-ai/</guid>
-      <description>Ruminations on transitioning from &amp;#39;one-shot&amp;#39; prompting to a recursive, interrogative methodology in technical communication.</description>
+      <description>Why moving from one-shot prompting to a recursive, interrogative AI workflow transforms technical communicators from content generators into information auditors.</description>
     </item>
     <item>
       <title>Jira backlog optimization and debt reduction</title>
