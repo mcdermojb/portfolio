@@ -1,5 +1,5 @@
 <header class="header">
-    <nav class="side-nav">
+    <nav class="site-nav" aria-label="Main navigation">
         <div class="logo">
             {{- $label_text := (site.Params.label.text | default site.Title) }}
             {{- if site.Title }}
@@ -14,7 +14,7 @@
             {{- end }}
             <div class="logo-switches">
                 {{- if (not site.Params.disableThemeToggle) }}
-                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                <button id="theme-toggle" accesskey="t" title="Toggle color theme (Alt + T)" aria-label="Toggle color theme">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                         stroke-linejoin="round">
@@ -43,7 +43,9 @@
             {{- $menu_item_url := (cond (strings.HasPrefix .URL "http") .URL (.URL | relLangURL) ) }}
             <li>
                 <a href="{{ $menu_item_url }}" title="{{ .Name }}"
-                    {{- if (or (eq $currentPage.Permalink (absURL .URL)) (eq $currentPage.RelPermalink (.URL | relLangURL))) }} class="active" {{- end }}>
+                    {{- $isActive := or (eq $currentPage.RelPermalink $menu_item_url) (and (ne .URL "") (not (strings.HasPrefix .URL "http")) (strings.HasPrefix $currentPage.RelPermalink $menu_item_url)) }}
+                    {{- $isActive = or $isActive (and (eq .Name "Work") (eq $currentPage.Section "case-studies")) }}
+                    {{- if $isActive }} class="active"{{ if eq $currentPage.RelPermalink $menu_item_url }} aria-current="page"{{ end }}{{- end }}>
                     <span>{{ .Name }}</span>
                 </a>
             </li>

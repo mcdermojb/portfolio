@@ -1,0 +1,19 @@
+<div class="featured-projects">
+  {{- range .Page.Params.featuredProjects }}
+  <article class="featured-project">
+    <p class="featured-project-category">{{ .category }}</p>
+    <h3>{{ .title }}</h3>
+    <ol class="project-flow" aria-label="{{ .title }} workflow overview">
+      {{- range .flow }}
+      <li>{{ . }}</li>
+      {{- end }}
+    </ol>
+    <p>{{ .summary }}</p>
+    <dl class="featured-project-details">
+      <div><dt>My role</dt><dd>{{ .role }}</dd></div>
+      <div><dt>{{ .resultLabel }}</dt><dd>{{ .result }}</dd></div>
+    </dl>
+    <a class="featured-project-link" href="{{ relref $.Page .page }}">{{ .linkText }} <span aria-hidden="true">→</span></a>
+  </article>
+  {{- end }}
+</div>

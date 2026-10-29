@@ -1,56 +1,78 @@
 ---
 title: "Resume"
-date: 2026-07-06
+pageHeading: "Joseph (Joe) McDermott"
+layout: "single"
+description: "Senior Principal Information Developer, Lead"
 showToc: true
-TocOpen: true # Optional: keeps the header list open by default instead of collapsed
+TocOpen: true
+UseHugoToc: true
+hideMeta: true
 ---
 
-# Joe McDermott
-**Senior Principal Information Developer | Berkeley, CA | [LinkedIn](https://linkedin.com/in/joe-b-mcdermott)** | **[Email](mailto:mcd.joe@icloud.com)**
+Berkeley, CA · [LinkedIn](https://linkedin.com/in/joe-b-mcdermott) · [Email](mailto:mcd.joe@icloud.com)
 
-## Executive Summary
-Technical leader with 15+ years of experience managing documentation lifecycles for enterprise security and developer platforms. Expert in orchestrating Docs-as-Code workflows, REST API modernization, and AI-augmented content operations. 
+## Professional summary
 
----
+Technical documentation leader experienced in n-tier architectures, cloud environments, enterprise security, and developer platforms. Led in-depth documentation planning across **15+ Symantec/Broadcom DLP releases over 12+ years**, defining content scope, identifying customer use cases, and coordinating delivery with engineering and product teams.
 
-## Professional Experience
+## Core competencies
 
-### Symantec (Division of Broadcom)
-**Senior Principal Information Developer, Lead** | 2012 – Present  
+* **Content architecture:** DITA XML, Markdown, docs-as-code, single-sourcing, conrefs, conditional logic, and CMS evaluation and migration (AEM and Vasont).
+* **API and security documentation:** REST/OpenAPI, SDKs, PKI, SSL/TLS, asymmetric cryptography, Kerberos, FIPS 140-3, and secure Syslog.
+* **AI content operations:** Agent design, prompt engineering, technical editing, content auditing, automated style enforcement, and structured output for CI/CD workflows.
+* **Team leadership:** Project load balancing, mentoring, new technology research and training, routing priority requests, PI planning, SME coordination, and Content Council leadership.
 
-**Leadership & Strategy**
-* **Documentation Governance:** Direct the content strategy for Enterprise Data Loss Prevention (DLP) across 10+ product areas, aligning technical specifications for Architects, PGM, and CISOs.
-* **AI Operations:** Engineered a pipeline using ChatGPT, Claude, and Gemini for content auditing and QA automation, reducing cycle times by **30%**.
-* **API Modernization:** Led the legacy-to-REST transition via OpenAPI standards, increasing developer onboarding efficiency by **50%**.
-* **Systems Architecture:** Spearheaded global single-sourcing strategies using DITA (XML) to ensure feature parity across On-Premises and Cloud portfolios.
-* **Mentorship:** Lead Agile sprints for cross-functional writing teams and consult on global CMS migrations (AEM/Vasont).
+## Professional experience
+
+### Broadcom
+
+**2019–Present · Current role: Senior Principal Information Developer, Lead**
+
+* **Documentation leadership:** Lead planning and delivery across DLP product areas, manage team priorities through organizational change, mentor writers, and coordinate critical customer communications.
+* **API modernization:** Lead the transition from SOAP documentation to REST/OpenAPI, with tested examples and a versioned reference.
+* **Security and platforms:** Document TLS, Kerberos, HSMs, CyberArk, FIPS 140-3, installation, and disaster recovery across server, database, endpoint, and cloud environments.
+* **Content operations:** Build AI-assisted research, drafting, and review workflows; audit **3,000+ legacy topics**; and develop reusable DITA content and Python automation.
+* **Information architecture:** Consolidate **342 source topics into 58 head topics** across installation, upgrade, and database guides. This measures content consolidation rather than customer task-time improvements.
+
+### Symantec
+
+**2012–2019 · Final role: Senior Principal Information Developer**
+
+* Planned and delivered DLP documentation for n-tier deployments, cloud integrations, and Windows/macOS endpoints, partnering with engineering and SQA.
+* Documented CloudSOC policies and incident remediation, endpoint monitoring, encryption, identity, Oracle environments, and enterprise deployment workflows.
+* Established shared terminology through the DLP dictionary and maintained structured, reusable content across releases.
 
 ### Corptax Inc.
-**Senior Technical Writer** | 2006 – 2012 
 
-* **Workflow Design:** Architected the company’s first single-source help systems using MadCap Flare.
-* **Standardization:** Established the inaugural company-wide style guide and terminology standards to unify product voice.
+**Senior Technical Writer | 2006–2012**
 
----
+* Built the company’s first single-source help systems with MadCap Flare and established its style guide and terminology standards.
 
-## Technical Toolkit
+### Deloitte & Touche Tax Technologies
 
-| Category | Mastery & Implementation |
-| :--- | :--- |
-| **Developer Experience** | Swagger/OpenAPI, Postman, Git/GitHub, Markdown, JSON, REST |
-| **Content Systems** | AEM, Vasont, MadCap Flare, DITA (XML), Oxygen |
-| **AI Strategy** | Prompt Engineering, LLM-based Auditing, Automated Style Enforcement |
-| **Technical Core** | Cyber Security (DLP), SaaS, Cloud Infrastructure, Oracle 12c |
+**Technical Writer | 2004–2006**
 
----
+* Developed international tax software help using functional specifications and SME interviews across multi-month release cycles.
 
-## Performance Metrics
-* **Support Impact:** Reduced installation-related support calls by **90%** through proactive content scaffolding.
-* **Operational Velocity:** Integrated structured API models in Git, accelerating delivery speed by **25%**.
-* **Revenue Influence:** Authored executive whitepapers contributing to a **20% increase** in stakeholder engagement.
+## Teaching experience
 
----
+### California Polytechnic State University (Cal Poly)
+
+**English Instructor | 2009–2012**
+
+* Taught Technical Writing for Engineers (ENGL 149), connecting engineering concepts with clear communication.
+
+### Mills College
+
+**English Instructor | 2006–2008**
+
+* Taught Writing: Exposition (ENGL 1A), developing expository writing and critical thinking skills.
 
 ## Education
-* **M.A. English** | Mills College
-* **B.A. English/Technical Communication** | Cal Poly
+
+* **M.A., English** — Mills College
+* **B.A., English/Technical Communication** — Cal Poly
+
+## Explore further
+
+[Full experience, technical toolkit, and release inventory]({{< ref "/resume/experience-details.md" >}}) · [Selected work]({{< ref "/portfolio/_index.md" >}}) · [Contact]({{< ref "/contact/_index.md" >}})

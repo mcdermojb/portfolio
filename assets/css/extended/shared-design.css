@@ -1,0 +1,190 @@
+/* Common reading and card styles for section indexes and long-form pages. */
+.inner-page .page-header,
+.inner-page .post-header {
+    margin: 1rem 0 2.5rem;
+    padding-bottom: 1.75rem;
+    border-bottom: 3px solid var(--site-highlight);
+}
+
+.inner-page .page-header h1,
+.inner-page .post-title,
+.inner-page .post-content h1 {
+    font-size: clamp(2rem, 3.5vw, 3.5rem);
+    line-height: 1.12;
+    letter-spacing: -0.035em;
+    text-wrap: balance;
+    overflow-wrap: break-word;
+}
+
+.inner-page .post-description {
+    max-width: 55ch;
+    margin-top: 1.25rem;
+    line-height: 1.75;
+}
+
+.inner-page .breadcrumbs {
+    margin-bottom: 1rem;
+}
+
+.inner-page .breadcrumbs a {
+    color: var(--site-accent);
+}
+
+.inner-page .post-meta {
+    margin-top: 1rem;
+}
+
+.post-content {
+    line-height: 1.75;
+}
+
+.inner-page .post-content h2 {
+    margin: 3.5rem 0 1.25rem;
+    font-size: 1.65rem;
+    line-height: 1.3;
+    letter-spacing: -0.02em;
+}
+
+.inner-page .post-content h3 {
+    margin: 2.5rem 0 1rem;
+    font-size: 1.3rem;
+    line-height: 1.35;
+}
+
+.inner-page .post-content h4 {
+    margin: 2rem 0 0.75rem;
+    font-size: 1.05rem;
+    color: var(--site-accent);
+}
+
+.post-content :is(h1, h2, h3, h4, h5, h6) {
+    scroll-margin-top: 1.5rem;
+}
+
+.inner-page .post-entry {
+    padding: clamp(1.25rem, 3vw, 2rem);
+    border-radius: 12px;
+    border-top: 3px solid var(--site-accent);
+}
+
+.inner-page .entry-header h2 {
+    font-size: 1.3rem;
+    line-height: 1.35;
+    letter-spacing: -0.02em;
+}
+
+.inner-page .entry-content {
+    display: block;
+    margin: 0.75rem 0 1rem;
+    font-size: 1rem;
+    line-height: 1.75;
+}
+
+.inner-page .post-entry:active {
+    transform: none;
+}
+
+.inner-page .post-entry:focus-within {
+    outline: 2px solid var(--site-accent);
+    outline-offset: 4px;
+}
+
+.post-content blockquote {
+    padding: 1rem 1.25rem;
+    border-inline-start: 3px solid var(--site-highlight);
+    border-radius: 0 8px 8px 0;
+    background: var(--site-accent-soft);
+}
+
+.post-content blockquote > :last-child {
+    margin-bottom: 0;
+}
+
+.post-content table:not(.highlighttable) th {
+    background: var(--site-accent-soft);
+    color: var(--primary);
+}
+
+.post-content table:not(.highlighttable) :is(th, td) {
+    padding: 0.75rem;
+}
+
+.toc {
+    border-radius: 12px;
+    border-color: var(--border);
+}
+
+.toc summary:focus-visible,
+.breadcrumbs a:focus-visible {
+    outline: 2px solid var(--site-accent);
+    outline-offset: 4px;
+}
+
+.post-content .featured-project-details {
+    display: block;
+}
+
+.post-content .featured-project-details :is(dt, dd) {
+    width: auto;
+    padding: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .post-entry {
+        transition: none;
+    }
+}
+
+/* Keyboard access and project cards share the same focus treatment. */
+.skip-link {
+    position: absolute;
+    top: 0.5rem;
+    left: 1rem;
+    z-index: 1000;
+    padding: 0.75rem 1rem;
+    color: var(--theme);
+    background: var(--site-accent);
+    border-radius: 8px;
+    transform: translateY(-200%);
+}
+
+.skip-link:focus {
+    transform: translateY(0);
+    outline: 2px solid var(--site-highlight);
+    outline-offset: 3px;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+    border: 0;
+}
+
+.post-content .work-projects .featured-project h3 {
+    margin: 0 0 0.75rem;
+}
+
+.post-content .work-projects .featured-project h3 a {
+    color: var(--primary);
+    box-shadow: none;
+}
+
+.post-content .work-projects .featured-project {
+    border-top: 3px solid var(--site-accent);
+}
+
+.post-content .work-projects .featured-project-category,
+.post-content .work-projects .featured-project-link {
+    color: var(--site-accent);
+}
+
+.project-status {
+    font-size: 0.9rem;
+    font-weight: 600;
+}

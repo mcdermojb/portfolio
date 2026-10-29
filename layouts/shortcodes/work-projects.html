@@ -1,0 +1,12 @@
+{{- $section := site.GetPage (.Get "section") -}}
+<div class="featured-projects work-projects">
+  {{- range $section.RegularPages.ByWeight }}
+  <article class="featured-project">
+    {{- with .Params.projectCategory }}<p class="featured-project-category">{{ . }}</p>{{ end }}
+    <h3><a href="{{ .RelPermalink }}">{{ .Params.projectTitle | default .Title }}</a></h3>
+    <p>{{ .Params.projectSummary | default .Description }}</p>
+    {{- with .Params.projectStatus }}<p class="project-status">{{ . }}</p>{{ end }}
+    <a class="featured-project-link" href="{{ .RelPermalink }}">Explore project<span class="visually-hidden">: {{ .Params.projectTitle | default .Title }}</span> <span aria-hidden="true">→</span></a>
+  </article>
+  {{- end }}
+</div>

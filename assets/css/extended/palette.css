@@ -1,0 +1,38 @@
+/* Shared cobalt and gold palette for both color modes. */
+:root {
+    --site-accent: #2454c6;
+    --site-accent-soft: #edf2ff;
+    --site-highlight: #e9ad18;
+    --home-accent: var(--site-accent);
+    --home-accent-soft: var(--site-accent-soft);
+}
+
+:root[data-theme="dark"] {
+    --site-accent: #a8c1ff;
+    --site-accent-soft: #26324c;
+    --site-highlight: #ffd166;
+}
+
+.post-content a:not(.home-action),
+.toc a:hover,
+.toc a:focus-visible {
+    color: var(--site-accent);
+}
+
+.post-content a:focus-visible {
+    outline: 2px solid var(--site-accent);
+    outline-offset: 4px;
+}
+
+.homepage-content .home-intro {
+    border-bottom: 3px solid var(--site-highlight);
+}
+
+.post-content .project-flow {
+    border-left: 3px solid var(--site-highlight);
+}
+
+::selection {
+    color: #1e1e1e;
+    background: #ffd166;
+}

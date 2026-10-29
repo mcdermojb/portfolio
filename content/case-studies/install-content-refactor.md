@@ -1,19 +1,25 @@
 ---
+projectTitle: "Installation journey redesign"
+projectCategory: "Information architecture"
+projectSummary: "Reorganizing fragmented setup content using clean-room testing, dependency mapping, and a unified DITA model."
+weight: 1
+projectStatus: "In progress: validation and prototyping."
 title: "Refactoring installation journeys"
 description: "How I am re-engineering legacy installation content through architectural mapping and DITA optimization."
+summary: "Redesigning fragmented setup guides into a unified installation journey, using clean-room testing and dependency mapping. In progress: validation and DITA prototyping."
 date: 2026-02-27
 ShowToc: true
 ---
 
-## At a glance
-| Metric | Target Goal | Status |
-| :--- | :--- | :--- |
-| **Install Time** | 30% Reduction | Validation Phase |
-| **Support Volume** | Deflect "Setup" Tickets | Mapping Deficiencies |
-| **Content Model** | Unified DITA Journey | Prototyping |
-| **Methodology** | Clean-room Validation | In Progress |
+## Deliverables and current status
 
----
+**In progress: validation, dependency mapping, and DITA prototyping.**
+
+* Clean-room installation testing to identify gaps between product behavior and documented steps.
+* A unified installation content model with dependencies across networking, security, and database teams.
+* A published [Kerberos configuration guide](https://techdocs.broadcom.com/us/en/symantec-security-software/information-security/data-loss-prevention/25-1/install-dlp/configuring-certificates-for-secure-server-communications/using-kerberos-enforce-server-and-the-database/enable-kerberos-authentication-new-installations.html).
+
+The project aims to reduce setup effort and support requests. Customer task-time and support-volume outcomes have not yet been measured.
 
 ## The challenge: Fragmented information architecture
 Legacy installation content suffered from outdated writing practices and a disjointed information architecture (IA). This fragmentation created significant friction for new users, leading to:
@@ -36,7 +42,7 @@ I am designing a new information model that moves away from siloed topics and to
 ### 3. Cross-functional alignment
 I am collaborating with Engineering and Security architects to ensure the new content architecture accounts for varied organizational security protocols and environmental constraints. 
 
-* **Live Implementation Artifact:** See my published guide for [Kerberos authentication for N-tier architectures](https://techdocs.broadcom.com/us/en/symantec-security-software/information-security/data-loss-prevention/25-1/install-dlp/configuring-certificates-for-secure-server-communications/using-kerberos-enforce-server-and-the-database/enable-kerberos-authentication-new-installations.html). This reduced installation support overhead by providing precise TGT configuration syntax for multi-server, zero-trust database environments.
+* **Live Implementation Artifact:** See my published guide for [Kerberos authentication for N-tier architectures](https://techdocs.broadcom.com/us/en/symantec-security-software/information-security/data-loss-prevention/25-1/install-dlp/configuring-certificates-for-secure-server-communications/using-kerberos-enforce-server-and-the-database/enable-kerberos-authentication-new-installations.html). The guide provides TGT configuration syntax for multi-server database environments; its effect on support volume has not been quantified here.
 
 ## Anticipated impact: Faster adoption and fewer tickets
 By modernizing the installation corpus, we aim to achieve:

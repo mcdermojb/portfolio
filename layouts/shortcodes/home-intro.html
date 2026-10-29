@@ -1,0 +1,9 @@
+<section class="home-intro" aria-labelledby="home-headline">
+  <p class="home-eyebrow">Joe McDermott · Senior Principal Information Developer</p>
+  <h1 id="home-headline">Clear documentation for complex security products.</h1>
+  {{ .Inner | markdownify }}
+  <div class="home-actions">
+    <a class="home-action home-action-primary" href="{{ relref .Page "/portfolio/_index.md" }}">Explore my work <span aria-hidden="true">→</span></a>
+    <a class="home-action" href="{{ relref .Page "/resume/_index.md" }}">View my resume</a>
+  </div>
+</section>

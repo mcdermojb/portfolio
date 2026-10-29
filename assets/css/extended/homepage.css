@@ -1,0 +1,116 @@
+.home-intro {
+    padding: 1rem 0 2.75rem;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 3.5rem;
+}
+
+.homepage-content .home-eyebrow {
+    color: var(--home-accent);
+    font-size: 0.8rem;
+    font-weight: 600;
+    line-height: 1.6;
+    margin-bottom: 1.25rem;
+}
+
+.homepage-content .home-intro h1 {
+    max-width: 18ch;
+    margin: 0 0 1.5rem;
+    font-size: clamp(2rem, 3.5vw, 3.5rem);
+    line-height: 1.12;
+    letter-spacing: -0.035em;
+    text-wrap: balance;
+}
+
+.home-intro > p:not(.home-eyebrow) {
+    max-width: 55ch;
+    line-height: 1.75;
+}
+
+.home-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-top: 1.75rem;
+}
+
+.homepage-content .home-action {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.6rem;
+    padding: 0.75rem 1rem;
+    border: 1px solid var(--home-accent);
+    border-radius: 8px;
+    color: var(--home-accent);
+    font-size: 0.9rem;
+    font-weight: 600;
+    box-shadow: none;
+}
+
+.homepage-content .home-action-primary {
+    background: var(--home-accent);
+    color: var(--theme);
+}
+
+.homepage-content > h2 {
+    margin: 3.5rem 0 1.25rem;
+    font-size: 1.65rem;
+    letter-spacing: -0.02em;
+}
+
+.homepage-content .featured-project {
+    border-top: 3px solid var(--home-accent);
+}
+
+.homepage-content .featured-project-category,
+.homepage-content .featured-project-link {
+    color: var(--home-accent);
+}
+
+.homepage-content .project-flow {
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+    padding: 1rem;
+    margin: 1.25rem 0;
+    border-radius: 8px;
+    background: var(--home-accent-soft);
+}
+
+.project-flow li {
+    position: relative;
+    flex: 1;
+    margin: 0;
+    font-size: 0.8rem;
+    line-height: 1.5;
+}
+
+.project-flow li + li::before {
+    content: "→";
+    position: absolute;
+    left: -1.2rem;
+    color: var(--home-accent);
+}
+
+.home-action:hover {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+.home-action:focus-visible {
+    outline: 2px solid var(--home-accent);
+    outline-offset: 4px;
+}
+
+@media (max-width: 480px) {
+    .homepage-content .project-flow {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .project-flow li + li::before {
+        content: "↓";
+        top: -1.4rem;
+        left: 0;
+    }
+}

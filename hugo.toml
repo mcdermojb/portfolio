@@ -6,6 +6,10 @@ title = 'Joe McDermott'
 relativeURLs = false
 canonifyURLs = false
 
+[markup.tableOfContents]
+    startLevel = 2
+    endLevel = 3
+
 [params]
     env = 'production'
     mainSections = ["none"]
@@ -35,29 +39,29 @@ canonifyURLs = false
 
 # MAIN MENU NAVIGATION
 [[menu.main]]
-    name = "About"
+    name = "Home"
     url = ""                 # Maps directly to your baseURL root
     weight = 10
 
 [[menu.main]]
-    name = "Portfolio"
+    name = "Work"
     url = "portfolio/"       # Relative to baseURL (resolves to /portfolio/portfolio/)
     weight = 20
 
 [[menu.main]]
     name = "Resume"
     url = "resume/"
-    weight = 30
-
-[[menu.main]]
-    name = "Case Studies"
-    url = "case-studies/"
-    weight = 40
-
-[[menu.main]]
-    name = "Posts"
-    url = "posts/"
     weight = 50
+
+[[menu.main]]
+    name = "Contact"
+    url = "contact/"
+    weight = 60
+
+[[menu.main]]
+    name = "Writing"
+    url = "posts/"
+    weight = 30
 
 [params.footer]
     content = "© 2026 Joe McDermott. All rights reserved. Licensed under CC BY-NC-ND 4.0."

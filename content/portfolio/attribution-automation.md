@@ -1,4 +1,8 @@
 ---
+projectTitle: "Attribution automation"
+projectCategory: "Python automation"
+projectSummary: "A repeatable utility for merging, deduplicating, and formatting open-source attribution reports."
+weight: 7
 title: "Automating Open Source Attribution Compliance"
 description: "Engineering a Python-based utility to streamline BlackDuck license merging, de-duplication, and compliance formatting."
 date: 2025-12-03
@@ -13,11 +17,11 @@ layout: "single"
 
 ## Project Scope at a Glance
 
-| Operational Metric | Legacy Manual Process | Automated Python Workflow | Measurable Impact |
+| Operational Metric | Legacy Manual Process | Automated Python Workflow | Workflow Outcome |
 | :--- | :--- | :--- | :--- |
-| **Consolidation Time** | High overhead (multi-file tracking) | **Sub-second execution** | Instant data merging |
-| **Data Integrity** | High risk of duplicate component entries | **Programmatic filtering** | 100% unique, sorted output |
-| **Compliance Formatting** | Manual validation of header text | **Automated injection** | Guaranteed policy alignment |
+| **Consolidation Time** | High overhead (multi-file tracking) | **Scripted consolidation** | Automated data merging |
+| **Data Integrity** | High risk of duplicate component entries | **Programmatic filtering** | Deduplicated, sorted output |
+| **Compliance Formatting** | Manual validation of header text | **Automated injection** | Consistent header formatting; final review required |
 | **Execution Environment** | Fragmented local environments | **Standardized CLI engine** | Repeatable, portable pipeline |
 
 ---

@@ -1,7 +1,7 @@
 ---
 title: "342 Topics to 58: What AI-Assisted IA Restructuring Took"
 date: 2026-09-16
-description: "A real-world case study on using AI to condense 342 legacy technical documentation topics down to 58 Head Topics while cutting page count by 83%."
+description: "A real-world case study on using AI to condense 342 legacy technical documentation topics down to 58 Head Topics with an 83% reduction in topic count."
 tags: ["Information Architecture", "AI", "DITA", "Docs-as-Code"]
 showToc: true
 draft: false
@@ -26,7 +26,7 @@ I broke the refactor into four phases and ran most of them through Claude:
 
 The real story isn't just page counts—it's velocity. This run condensed months of IA analysis, refactoring, and hand-coded DITA work into a few days. 
 
-That said, the page-count reduction demonstrates the scale of legacy bloat:
+That said, the topic counts show the scope of consolidation:
 
 | Guide | Old Topics | New Head Topics | Reduction |
 |---|---|---|---|
@@ -71,6 +71,6 @@ Building a structured measurement framework prevents relying on vanity metrics.
 
 ## Conclusion
 
-AI-assisted restructuring does not replace authorial judgment. It automates high-overhead, repetitive refactoring—reducing months of manual topic-shuffling to a few days of automated execution and focused human review. The remaining 20% of the work requires subject-matter expertise: validating logic, refining edge cases, and verifying clarity.
+AI-assisted restructuring does not replace authorial judgment. It automates high-overhead, repetitive refactoring—reducing months of manual topic-shuffling to a few days of automated execution and focused human review. The remaining work requires subject-matter expertise: validating logic, refining edge cases, and verifying clarity.
 
 Next steps: test the updated DITA-OT validation pipeline on a second project, and deploy the GQM framework to measure real-world performance.

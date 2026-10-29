@@ -1,19 +1,21 @@
 ---
+projectTitle: "CMS migration and structured authoring"
+projectCategory: "Content systems"
+projectSummary: "Evaluated AEM and Vasont workflows and standardized reusable DITA content for multi-release publishing."
+weight: 2
 title: "CMS migration and structured authoring"
 description: "How I optimized enterprise publishing through DITA standardization and CCMS strategy."
+summary: "Evaluated AEM and Vasont workflows and standardized DITA content reuse to support publishing and maintenance across multiple product releases."
 date: 2026-02-17
 ShowToc: true
 ---
 
-## At a glance
-| Metric | Result | Status |
-| :--- | :--- | :--- |
-| **Publishing speed** | 40% faster | Completed |
-| **Support deflection** | 90% reduction | Verified |
-| **Delivery velocity** | 25% increase | Production |
-| **Architecture** | DITA XML / CCMS | Standardized |
+## What I delivered
 
----
+* Workflow mapping and usability evaluation of AEM and Vasont.
+* DITA standards and reusable content structures for concurrent product releases.
+* Git-based API content workflows connecting documentation updates with engineering changes.
+* A shared publishing approach for global documentation teams.
 
 ## The challenge: Scaling for multi-release maintenance
 Managing documentation for N-tier architectures requires a high-availability delivery pipeline. The legacy workflow could not scale with rapid release cycles, particularly when maintaining concurrent support for multiple enterprise versions.
@@ -30,12 +32,9 @@ I implemented strict DITA standards across diverse product lines. By enforcing g
 ### 3. Engineering integration
 I integrated structured API models within **Git** to streamline the developer experience. This narrowed the gap between code commits and documentation updates, creating a more cohesive "Docs-as-Code" environment.
 
-## The impact: Global alignment and speed
-The migration transformed the documentation department from a bottleneck into a high-velocity delivery engine.
+## Outcomes
 
-* **Operational efficiency:** Reduced total publishing time by **40%** and increased delivery speed by **25%**.
-* **Support deflection:** Decreased installation-related support calls by **90%** through improved content scaffolding and clearer technical paths.
-* **Global scalability:** Unified the content strategy for complex, multi-tier enterprise environments, ensuring 100% consistency across global teams.
+The work established reusable content structures and shared publishing practices across multi-release documentation. Git-based API workflows brought documentation changes into version control alongside engineering work.
 
 ## Technical stack
 * **CCMS:** Adobe Experience Manager (AEM), Vasont.

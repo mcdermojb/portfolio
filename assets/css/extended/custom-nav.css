@@ -1,76 +1,103 @@
-@media screen and (min-width: 768px) {
-    /* Main layout engine */
-    body {
-        display: flex !important;
-        flex-direction: row !important;
-        min-height: 100vh;
-        margin: 0;
-    }
+/* Shared page structure: the footer follows the content. */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
 
-    /* Fixed left-side panel box container */
-    .header {
-        position: fixed !important;
-        top: 0 !important;
-        left: 0 !important;
-        width: 240px !important;
-        height: 100vh !important;
-        border-right: 1px solid var(--border);
-        background: var(--theme);
-        padding: 2.5rem 1.5rem !important;
-        display: flex !important;
-        flex-direction: column !important;
-        justify-content: flex-start !important;
-        z-index: 100;
-    }
+.main {
+    flex: 1;
+    width: 100%;
+    min-width: 0;
+    min-height: 0;
+    margin: 0 auto;
+}
 
-    /* Turn the default horizontal nav wrapper into a vertical block stack */
-    .nav {
-        display: flex !important;
-        flex-direction: column !important;
-        align-items: flex-start !important;
-        justify-content: flex-start !important;
-        width: 100% !important;
-        padding: 0 !important;
-        margin: 0 !important;
-    }
+.header {
+    border-bottom: 1px solid var(--border);
+    background: var(--theme);
+}
 
-    /* Target the list container directly */
-    ul#menu {
-        display: block !important;
-        width: 100% !important;
-        margin: 1.5rem 0 0 0 !important; /* Spacing below the sun icon */
-        padding: 0 !important;
-        list-style: none !important;
-    }
+.site-nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.75rem 2rem;
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 1.25rem var(--gap);
+}
 
-    /* FORCE list items to stack and completely strip horizontal spacing */
-    ul#menu li, .nav li {
-        display: block !important;
-        margin: 0 0 0.6rem 0 !important; /* Sets a tight, clean vertical gap */
-        padding: 0 !important;
-        width: 100% !important;
-        clear: both !important;
-    }
+.site-nav .logo {
+    align-items: center;
+    gap: 0.75rem;
+    margin: 0;
+    line-height: 1.3;
+}
 
-    /* Force links to sit perfectly flush left */
-    ul#menu a, .nav a {
-        display: inline-block !important;
-        padding: 0.2rem 0 !important; /* Minimal target cushion */
-        margin: 0 !important;
-        font-size: 1.05rem !important;
-        text-align: left !important;
-    }
+.site-nav .logo a {
+    font-size: 1.5rem;
+}
 
-    /* Shift central page text window clear of the navigation panel */
-    .main {
-        margin-left: 260px !important;
-        max-width: calc(100% - 300px) !important;
-        padding: 2.5rem !important;
-        flex-grow: 1;
-    }
+.site-nav #menu {
+    flex-wrap: wrap;
+    gap: 0.5rem 1.5rem;
+    margin: 0;
+    overflow: visible;
+    white-space: normal;
+}
 
-    .footer {
-        margin-left: 260px !important;
-        padding: 1.5rem 2.5rem !important;
-    }
+.site-nav #menu li + li {
+    margin-inline-start: 0;
+}
+
+.site-nav #menu a {
+    display: block;
+    padding: 0.5rem 0;
+    line-height: 1.5;
+}
+
+.site-nav a:focus-visible,
+.site-nav #theme-toggle:focus-visible {
+    outline: 2px solid currentColor;
+    outline-offset: 4px;
+}
+
+.home-page .main {
+    max-width: 1000px;
+    padding: clamp(1.5rem, 4vw, 3rem) var(--gap) 4rem;
+}
+
+.footer {
+    position: static;
+    width: 100%;
+    max-width: none;
+    margin: 0;
+    padding: 1.5rem var(--gap);
+    border-top: 1px solid var(--border);
+    background: var(--theme);
+}
+
+.footer span:last-child {
+    white-space: normal;
+}
+
+.site-nav #menu a:hover,
+.site-nav #menu a.active {
+    color: var(--site-accent);
+}
+
+.site-nav #menu a.active {
+    border-bottom: 3px solid var(--site-highlight);
+}
+
+.site-nav #theme-toggle {
+    min-width: 44px;
+    min-height: 44px;
+}
+
+.inner-page .main {
+    max-width: 840px;
+    padding: clamp(1.5rem, 4vw, 3rem) var(--gap) 4rem;
 }

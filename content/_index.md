@@ -1,36 +1,60 @@
 ---
-title: "About Me"
+title: "Joe McDermott | Enterprise Security Documentation"
+description: "Clear documentation for complex security products. Joe McDermott specializes in enterprise security, API documentation, and content systems."
 layout: "homepage"   
 showToc: false       
 date: 2026-02-27
+featuredProjects:
+  - title: "API modernization"
+    category: "API documentation"
+    flow: ["Legacy API content", "Tested OpenAPI", "Versioned reference"]
+    summary: "Moved legacy API content into a docs-as-code workflow. Built a versioned OpenAPI experience with request and response examples tested against live environments."
+    role: "Content engineer and API documentation lead"
+    resultLabel: "Outcome"
+    result: "Interactive API reference with support for multiple product versions."
+    page: "/portfolio/api-transition"
+    linkText: "Explore the API modernization project"
+  - title: "Installation journey redesign"
+    category: "Information architecture"
+    flow: ["Fragmented guides", "Clean-room testing", "Unified journey"]
+    summary: "Reorganizing fragmented setup content into a unified installation journey. Using clean-room testing to identify missing steps and map dependencies across networking, security, and database teams."
+    role: "Content architecture and validation lead"
+    resultLabel: "Status"
+    result: "In progress: validation, dependency mapping, and DITA prototyping."
+    page: "/case-studies/install-content-refactor"
+    linkText: "Read the installation redesign case study"
+  - title: "Attribution automation"
+    category: "Python automation"
+    flow: ["Scan reports", "Merge and deduplicate", "Formatted attributions"]
+    summary: "Built a Python utility to consolidate open-source attribution reports from multiple product scans. It removes duplicates, groups licenses, and formats the output for publishing."
+    role: "Utility developer and workflow designer"
+    resultLabel: "Outcome"
+    result: "A repeatable command-line workflow replacing manual consolidation and formatting."
+    page: "/portfolio/attribution-automation"
+    linkText: "See how attribution automation works"
 ---
-# About Me
-I translate complex engineering intent into seamless developer success. As a Senior Principal Information Developer, I don’t just manage documentation—I architect the ecosystems where engineering complexity meets user adoption.
+{{< home-intro >}}
 
----
+I’m Joe McDermott, a Senior Principal Information Developer specializing in enterprise security, API documentation, and content systems. I help users configure complex products and help documentation teams deliver reliable content.
 
-## Agility
-I thrive in the "chaos phase" of technology adoption, building content strategies that scale as rapidly as the products they support. 
+{{< /home-intro >}}
 
-**This portfolio serves as a live demonstration of my approach: a docs-as-code environment engineered for performance and automation.** I engineered this site to prove the scalability of the docs-as-code model using:
+## Featured projects
 
-* **Static site generation:** Hugo (PaperMod) with Go-based templating for logic-driven layouts.
-* **Infrastructure:** GitHub Actions for automated CI/CD deployment.
-* **Version control:** Git for content management and branching logic.
-* **Automation:** YAML data structures and prompt-engineered workflows.
+Selected work in API documentation, content architecture, and automation.
 
-## Stack
-I optimize documentation pipelines using industry-standard tools and frameworks:
+{{< featured-projects >}}
 
-* **Developer experience:** Swagger/OpenAPI, Postman, Go (Golang), Jenkins, Git-based workflows, and so on.
-* **AI operations:** Prompt engineering, LLM-based content auditing, MCP servers, and automated production reviews.
-* **Content architecture:** DITA (XML), AEM, CCMS migration, and Information Ontology.
-* **Domain expertise:** Data Loss Prevention (DLP), Enterprise SaaS, N-tier systems, information and endpoint security, cryptography, and databases (Oracle, PostgreSQL, and so on).
+## How I work
 
-## Documentation sleuthing
-I treat documentation as an investigative discipline. Instead of waiting for hand-offs, I embed with engineering teams to extract specifications directly from architects and SQA. This proactive approach eliminates silos and ensures that security frameworks and REST API docs are technically grounded and accurate.
+I work directly with engineering, architects, and SQA to understand product behavior and test the guidance users need. I plan content around customer tasks, validate examples, and use automation to make research, review, and maintenance repeatable.
 
-## Beyond content
-I am a process-improver by trade and a coach by nature. Whether I am refactoring a CI/CD pipeline or mentoring a team of writers, I approach every challenge with a "team-first" mentality.
+As a team lead, I balance project workloads, mentor writers, research new technologies, and route priority requests. My work combines enterprise security knowledge with API documentation, structured content, and docs-as-code practices.
 
-When I’m not refactoring DITA, you’ll find me on the field coaching youth baseball and softball, or hiking the trails of the Berkeley hills. I bring that same dedication to long-term skill development and team cohesion to every project I join.
+## Let’s connect
+
+Have a complex product to document or a documentation team to lead? I’d be glad to talk.
+
+**[Email me](mailto:mcd.joe@icloud.com)** · **[Connect on LinkedIn](https://linkedin.com/in/joe-b-mcdermott)** · **[Contact details]({{< ref "/contact/_index.md" >}})**
+
+Outside work, I coach youth baseball and softball and hike the Berkeley hills.

@@ -1,4 +1,8 @@
 ---
+projectTitle: "API modernization"
+projectCategory: "API documentation"
+projectSummary: "Tested request/response examples and a versioned OpenAPI reference."
+weight: 9
 title: "API modernization and developer delight"
 description: "Leading the architectural shift from SOAP to REST/OpenAPI through custom infrastructure and CMS decoupling."
 date: 2026-02-17
@@ -10,7 +14,7 @@ ShowToc: true
 | :--- | :--- | :--- |
 | **Architecture** | SOAP to REST/OpenAPI | Modernized |
 | **Content Model** | CMS Decoupling | Docs-as-Code |
-| **Onboarding** | 50% faster | Verified |
+| **Onboarding** | Reported 50% improvement | Measurement details pending |
 | **Maintenance** | Multi-version support | Automated |
 
 ---
@@ -28,14 +32,14 @@ I orchestrated the extraction of API content from the legacy CMS. By moving API 
 I modified the API portal’s underlying codebase to support concurrent versioning. This allowed users to toggle between multiple API and product versions—a critical requirement for enterprise customers who maintain legacy and current installations simultaneously.
 
 ### 3. Environment synthesis and validation
-I built a dedicated testing environment to validate every endpoint. By generating real-world request/response pairs from live environments, I ensured 100% technical accuracy for the OpenAPI specifications and eliminated "documentation drift."
+I built a dedicated testing environment to validate every endpoint. By generating real-world request/response pairs from live environments, I checked the OpenAPI specifications against product behavior and corrected discrepancies.
 
 ### 4. Interactive OpenAPI migration
 I transitioned the reference library from static tables to interactive Swagger/OpenAPI. I specifically optimized the design for **"time-to-first-call,"** allowing developers to test authentication and endpoints directly within the portal.
 
 ## Technical outcomes
 * **Architectural agility:** Decoupled content from the CCMS, allowing documentation to scale at the speed of engineering releases.
-* **Improved developer adoption:** Boosted onboarding efficiency by **50%** through validated examples and an intuitive version-switching UI.
+* **Improved developer adoption:** Delivered tested examples and version switching. A **50% onboarding improvement** was reported, but the task definition, baseline, sample size, and measurement period are not documented here.
 * **Reduced engineering tax:** Established a self-service reference framework that eliminated manual specification hand-offs and repetitive support queries.
 * **Repeatable blueprint:** Created a standardized migration framework for future API releases across the product portfolio.
 

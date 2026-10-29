@@ -1,4 +1,8 @@
 ---
+projectTitle: "Kerberos authentication"
+projectCategory: "Security documentation"
+projectSummary: "Authentication between an Enforce Server and an Oracle database in n-tier environments."
+weight: 5
 title: "Configuring Kerberos Authentication for N-Tier Architectures"
 description: "A streamlined deployment reference for securing communications between multi-tier enterprise servers and backend databases using password-free Kerberos tokens."
 date: 2026-07-08

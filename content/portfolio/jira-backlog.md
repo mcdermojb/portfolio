@@ -1,4 +1,8 @@
 ---
+projectTitle: "Jira backlog management"
+projectCategory: "Team operations"
+projectSummary: "Triage and tracking practices for documentation requests, defects, and technical debt."
+weight: 8
 title: "Jira backlog optimization and debt reduction"
 description: "Architecting a triage framework and automation logic to resolve documentation debt across multi-release product lines."
 date: 2026-02-26

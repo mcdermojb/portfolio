@@ -1,4 +1,8 @@
 ---
+projectTitle: "CyberArk vault integration"
+projectCategory: "Security documentation"
+projectSummary: "Credential management and integration guidance for enterprise deployments."
+weight: 4
 title: "CyberArk Credential Vault Integration"
 description: "Architecting API-driven credential vaulting to automate zero-trust compliance for high-availability DLP Enforce Servers."
 date: 2026-07-08
